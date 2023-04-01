@@ -2,7 +2,6 @@ import dash
 from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output, State
-# import dash_bootstrap_components as dbc
 import numpy as np
 import pandas as pd
 import plotly.graph_objs as go
@@ -18,8 +17,6 @@ all_match = pd.read_csv('all_match_preparation.csv')
 with open('countries.geojson') as f:
     data_geo = json.load(f)
 
-
-# tourney_types = ['ATP 250', 'ATP 500', 'Masters 1000', 'Grand Slam', 'ATP Finals', 'Next Gen Finals']
 
 # lists for radar
 winner_skills = ['winner_aces', 'winner_break_points_converted', 'winner_break_points_saved', 'winner_double_faults', 'winner_return_points_won', 'winner_total_points_won']
@@ -50,8 +47,8 @@ region_drop = dcc.Dropdown(
                  {'label': 'Europe', 'value': 'Europe'},
                  {'label': 'Asia', 'value': 'Asia'},
                  {'label': 'Africa', 'value': 'Africa'},
-                 {'label': 'North America', 'value': 'North america'},
-                 {'label': 'South America', 'value': 'South america'},
+                 {'label': 'North America', 'value': 'North America'},
+                 {'label': 'South America', 'value': 'South America'},
                  {'label': 'Oceania', 'value': 'Oceania'}],
         value='World', 
         style= {'margin': '4px', 'box-shadow': '0px 0px #ebb36a', 'border-color': '#ebb36a'}
@@ -77,7 +74,7 @@ app.layout = html.Div([
                 html.Div([
                     region_drop,
                     html.Br(),
-                        ], id='Region dropdown', style={"height": '10%'}, className='main_box_style'),
+                        ], id='Region dropdown', style={'height': '10%'}, className='main_box_style'),
     
                 html.Div([
                     dcc.Graph(id='bar_plots'),
@@ -87,9 +84,7 @@ app.layout = html.Div([
 
         html.Div([
             html.Div([
-    
                 dcc.Graph(id='scattermap'),
-
                     ], id='Map', className='main_box_style'),
 
             html.Div([
@@ -104,41 +99,58 @@ app.layout = html.Div([
 
     html.Div([
         html.Div([
-    
             dcc.Graph(id='fig_sunburst'),
-
         ], id='Sunburst plot', style={'width': '40%'}, className='main_box_style'),
 
         html.Div([
             html.Div([
     
-                #html.Label(id='gas_1', className='box_emissions'),
-                #html.Br(),
-                #html.Label(id='gas_2', className='box_emissions'),
-                #html.Br(),
-                #html.Label(id='gas_3', className='box_emissions'),
-                #html.Br(),
-                #html.Label(id='gas_4', className='box_emissions'),
-                #html.Br(),
-                #html.Label(id='gas_5', className='box_emissions'),
+                # html.Div([
+                #     html.H4('Longest Game', style={'font-weight':'normal'}),
+                #     html.H3(id='longest_game')
+                # ],className='box_stats'),
 
-            ], id='Facts', style={'display': 'flex', "height": '10%'}),
+                # html.Div([
+                #     html.H4('Shortest Game', style={'font-weight':'normal'}),
+                #     html.H3(id='shortest_game')
+                # ],className='box_stats'),
+            
+                # html.Div([
+                #     html.H4('Most Games Won', style={'font-weight':'normal'}),
+                #     html.H3(id='most_games_won')
+                # ],className='box_stats'),
+
+                # html.Div([
+                #     html.H4('Most Frequent Matchup', style={'font-weight':'normal'}),
+                #     html.H3(id='most_frequent_atchup')
+                # ],className='box_stats'),
+            
+                # html.Div([
+                #     html.H4('Most Break Points Saved', style={'font-weight':'normal'}),
+                #     html.H3(id='most_break_points_saved')
+                # ],className='box_stats'),
+
+                # html.Div([
+                #     html.H4('Most Aces', style={'font-weight':'normal'}),
+                #     html.H3(id='most_aces')
+                # ],className='box_stats'),
+                ], id='Facts', style={'display': 'flex', "height": '10%'}),
+
             html.Div([
     
-                #dcc.Graph(id='radar_chart'),
+                dcc.Graph(id='radar_chart'),
                 # if we want a title
                 # html.H3('Click on the Map and see the output Bellow (you can use it in the callback [the last one in the app.py]):'),
 
-            ], id='Radar plot', className='main_box_style')
-        ], id='Radar and facts', style={'width': '70%'})
+                ], id='Radar plot', className='main_box_style')
+            ], id='Radar and facts', style={'width': '70%'})
 
-    ], id='3rd row', style={'display': 'flex'}),
+        ], id='3rd row', style={'display': 'flex'}),
+
     html.Div([
-    
         html.H2('Our names:'),
-        
     ], id='4th row for authors', style={'display': 'flex'})
-                    ])
+])
 
 
 #Callbacks####################################################################################################################
@@ -236,12 +248,97 @@ def update_plots(year):
                                                           paper_bgcolor='rgba(0,0,0,0)',
                                                           font_color='#363535'
                                                           )
-    
-
-
-
-
     return fig_scattermap, fig_sunburst
+
+
+@app.callback(
+    Output('radar_chart', 'figure'),
+    Input('scattermap', 'clickData'),
+    Input('year_slider', 'value')
+)
+
+def update_radar(ClickData, year):
+
+    # extracting the tournament name
+    tournament_name = ClickData['points'][0]['text']
+
+    # datasets to plot
+    dfwinner_for_plot = pd.DataFrame(all_match[(all_match['tourney_name'] == tournament_name) & (all_match['round_order'] == 1) & (all_match['tourney_year'] == year)][winner_skills_norm].iloc[0])
+    dfwinner_for_plot.set_index(pd.Index(skills), inplace = True)
+    dfwinner_for_plot.columns = ['score']
+
+    dfwinner_for_text = pd.DataFrame(all_match[(all_match['tourney_name'] == tournament_name) & (all_match['round_order'] == 1) & (all_match['tourney_year'] == year)][winner_skills].iloc[0])
+    dfwinner_for_text.set_index(pd.Index(skills), inplace = True)
+    dfwinner_for_text.columns = ['score']
+
+    dfloser_for_plot = pd.DataFrame(all_match[(all_match['tourney_name'] == tournament_name) & (all_match['round_order'] == 1) & (all_match['tourney_year'] == year)][loser_skills_norm].iloc[0])
+    dfloser_for_plot.set_index(pd.Index(skills), inplace = True)
+    dfloser_for_plot.columns = ['score']
+
+    dfloser_for_text = pd.DataFrame(all_match[(all_match['tourney_name'] == tournament_name) & (all_match['round_order'] == 1) & (all_match['tourney_year'] == year)][loser_skills].iloc[0])
+    dfloser_for_text.set_index(pd.Index(skills), inplace = True)
+    dfloser_for_text.columns = ['score']
+    
+    list_scores = [dfwinner_for_text.index[i].capitalize() + ': ' + str(dfwinner_for_text['score'][i]) for i in range(len(dfwinner_for_text))]
+    text_scores_winner = all_match[(all_match['tourney_name'] == tournament_name) & (all_match['round_order'] == 1) & (all_match['tourney_year'] == year)]['winner_name'].iloc[0]
+    for i in list_scores:
+        text_scores_winner += '<br>' + i
+
+    list_scores = [dfloser_for_text.index[i].capitalize() + ': ' + str(dfloser_for_text['score'][i]) for i in range(len(dfloser_for_text))]
+    text_scores_loser = all_match[(all_match['tourney_name'] == tournament_name) & (all_match['round_order'] == 1) & (all_match['tourney_year'] == year)]['loser_name'].iloc[0]
+    for i in list_scores:
+        text_scores_loser += '<br>' + i
+
+    ############---RADAR----##############################################################################################
+    fig_radar = go.Figure()
+
+    fig_radar.add_trace(go.Scatterpolar(
+        r = dfwinner_for_plot['score'],
+        theta = dfwinner_for_plot.index,
+        fill = 'toself', 
+        marker_color = '#00b359',
+        opacity = 0.8, 
+        hoverinfo = 'text',
+        name = text_scores_winner,
+        text = [dfwinner_for_text.index[i] + ': ' + str(dfwinner_for_text['score'][i]) for i in range(len(dfwinner_for_text))]
+    ))
+
+    fig_radar.add_trace(go.Scatterpolar(
+        r = dfloser_for_plot['score'],
+        theta = dfloser_for_plot.index,
+        fill = 'toself',
+        marker_color = '#ff0000',
+        hoverinfo = 'text',
+        name = text_scores_loser,
+        text = [dfloser_for_text.index[i] + ': ' + str(dfloser_for_text['score'][i]) for i in range(len(dfloser_for_text))]
+    ))
+
+    fig_radar.update_layout(
+        polar = dict(
+            bgcolor = 'white',
+            radialaxis = dict(
+                visible = True,
+                type = 'linear',
+                autotypenumbers = 'strict',
+                autorange = False,
+                range = [0, 10],
+                angle = 90,
+                showline = False,
+                showticklabels = False, ticks = '',
+                gridcolor = 'black'),
+        ),
+        width = 730,
+        height = 550,
+        margin = dict(l = 80, r = 80, t = 20, b = 20),
+        showlegend = False,
+        template = 'plotly_dark',
+        plot_bgcolor = 'rgba(0, 0, 0, 0)',
+        paper_bgcolor = 'rgba(0, 0, 0, 0)',
+        font_color = 'black',
+        font_size = 15
+    )
+
+    return fig_radar
 
 
 if __name__ == '__main__':
