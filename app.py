@@ -175,12 +175,12 @@ def update_bar_plot(year, region):
 
     data_bar_plot = dict(type='bar',
                         x=tournaments_filtered['tourney_name'],
-                        y=tournaments_filtered['tourney_fin_commit_USD'],
-                        marker_color='grey')
+                        y=tournaments_filtered['tourney_fin_commit_USD'])
+                        # marker=dict(color=color_dict[tourney_type])
 
     layout_bar_plot = dict(title=dict(text='Most valuable tournaments',
-                                    font=dict(size=24),
-                                    x=0.5, y=0.9),
+                                      font=dict(size=24),
+                                      x=0.5, y=0.9),
                         yaxis=dict(title='Prize'),
                         font_color='#363535',
                         paper_bgcolor='rgba(0,0,0,0)',
@@ -216,17 +216,16 @@ def update_plots(year):
                            )
 
 
-    layout_scattermap = dict(
-                                        mapbox=dict(style='light',
-                                         layers=[dict(source=feature,
-                                                     below='traces',
-                                                      type='fill',
-                                                      fill=dict(outlinecolor='gray')
-                                                     ) for feature in data_geo['features']]
-                                        ),
+    layout_scattermap = dict(mapbox=dict(style='white-bg',
+                             layers=[dict(source=feature,
+                                          below='traces',
+                                          type='fill',
+                                          fill=dict(outlinecolor='gray')
+                                          ) for feature in data_geo['features']]
+                            ),
                             title=dict(text='World Map',
                                         x=.5 # Title relative position according to the xaxis, range (0,1)
-                                    ),
+                                      ),
                             margin=dict(l=0, r=0, b=0, t=30, pad=0),
                             paper_bgcolor='rgba(0,0,0,0)',
                             plot_bgcolor='rgba(0,0,0,0)'
