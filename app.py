@@ -216,9 +216,10 @@ def update_plots(year):
                            )
 
 
-    layout_scattermap = dict(mapbox=dict(style='white-bg',
+    layout_scattermap = dict(
+                                        mapbox=dict(style='light',
                                          layers=[dict(source=feature,
-                                                      below='traces',
+                                                     below='traces',
                                                       type='fill',
                                                       fill=dict(outlinecolor='gray')
                                                      ) for feature in data_geo['features']]
@@ -231,6 +232,7 @@ def update_plots(year):
                             plot_bgcolor='rgba(0,0,0,0)'
                             )
 
+
     fig_scattermap = go.Figure(data=data_scattermap, layout=layout_scattermap)
 
     ############---SUBURST----##############################################################################################
@@ -241,8 +243,12 @@ def update_plots(year):
     
     fig_sunburst = px.sunburst(tournaments_char, 
                                       path = ['Characteristics', 'tourney_type', 'tourney_conditions', 'tourney_surface'],
-                                      values = 'Count', 
-                                      title = 'Characteristics of the tournament').update_traces(hovertemplate = '%{label}<br>' + 'Number of tournaments: %{value}')
+                                      values = 'Count',
+                                      color_discrete_sequence=px.colors.sequential.Greens_r,
+                                      #color_discrete_sequence = ['#F4F5F0','#E6F8F0', '#C0EFE2', '#9CDDCE', '#78CAB9', '#54B6A4', '#2F9F8F', '#1E7B6F','#98ff6e','#80d819','#00ae7d'],
+
+
+    title = 'Characteristics of the tournament').update_traces(hovertemplate = '%{label}<br>' + 'Number of tournaments: %{value}')
 
     fig_sunburst = fig_sunburst.update_layout(margin=dict(t=0, l=0, r=0, b=10),
                                                           paper_bgcolor='rgba(0,0,0,0)',
