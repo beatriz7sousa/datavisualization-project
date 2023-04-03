@@ -159,6 +159,7 @@ app.layout = html.Div([
 @app.callback(
         Output('bar_plots', 'figure'),
         Output('scattermap', 'figure'),
+        Output('fig_sunburst', 'figure'),
         Input('year_slider', 'value'),
         Input('drop_region', 'value')
 )
@@ -170,11 +171,14 @@ def update_bar_plot(year, region):
     else:
         tournaments_filtered = tournaments[tournaments['year'] == year]
 
+    ############---BAR PLOT----##############################################################################################
+
     # sorting the dataset by prize
-    tournaments_filtered = tournaments_filtered.sort_values('tourney_fin_commit_USD', ascending=False)
+    tournaments_filtered_top = tournaments_filtered.sort_values('tourney_fin_commit_USD', ascending=False)
+    
     # getting the top 10
     tournaments_filtered_top = tournaments_filtered.iloc[:10,:]
-
+    
     data_bar_plot = dict(type='bar',
                         x=tournaments_filtered_top['tourney_name'],
                         y=tournaments_filtered_top['tourney_fin_commit_USD'],
@@ -216,46 +220,6 @@ def update_bar_plot(year, region):
 
     fig_scattermap = go.Figure(data=data_scattermap, layout=layout_scattermap)
 
-    return fig_bar, fig_scattermap
-
-
-@app.callback(
-    #Output('scattermap', 'figure'),
-    Output('fig_sunburst', 'figure'),
-    Input('year_slider', 'value')
-)
-
-def update_plots(year):
-
-    # filter the tournaments dataset by year
-    tournaments_filtered = tournaments[tournaments['year'] == year]
-
-    # ############---MAP----##############################################################################################
-    # data_scattermap = dict(type='scattergeo', 
-    #                        lat=tournaments_filtered['latitude'], 
-    #                        lon=tournaments_filtered['longitude'],
-    #                        mode='markers',
-    #                        text=tournaments_filtered['tourney_name'], #marker wll show the name of the tournament
-    #                        marker=dict(color=['#036666' if x=='Grand Slam' else '#248277' if x=='Masters 1000' else '#358f80' if x=='ATP Finals' else '#56ab91' if x=='ATP 500' else '#78c6a3' if x=='ATP 250' else '99e2b4' if x=='Next Gen Finals' else '#000000' for x in tournaments_filtered['tourney_type']],
-    #                                    opacity = 1,
-    #                                    size=10
-    #                                   )
-    #                        )
-
-    # layout_scattermap = dict(geo=dict(scope='world',
-    #                                  showcountries=True,
-    #                                  projection=dict(type='natural earth'),
-    #                                  bgcolor= 'rgba(0,0,0,0)',
-    #                                  landcolor='#cccccc'),
-    #                         title=dict(text='World Map',
-    #                                     x=.5 # Title relative position according to the xaxis, range (0,1)
-    #                                   ),
-    #                         paper_bgcolor='rgba(0,0,0,0)',
-    #                         plot_bgcolor='rgba(0,0,0,0)'
-    #                         )
-
-    # fig_scattermap = go.Figure(data=data_scattermap, layout=layout_scattermap)
-
     ############---SUBURST----##############################################################################################
     # dataset for the sunburst chart
     tournaments_char = tournaments_filtered.groupby(by=['tourney_type', 'tourney_conditions', 'tourney_surface']).count()[['Unnamed: 0']].rename(columns={'Unnamed: 0': 'Count'})
@@ -284,8 +248,20 @@ def update_plots(year):
                                                           paper_bgcolor='rgba(0,0,0,0)',
                                                           font_color='#363535'
                                                           )
-    return fig_sunburst
-    # return fig_scattermap, fig_sunburst
+    
+    return fig_bar, fig_scattermap, fig_sunburst
+
+
+# @app.callback(
+#     #Output('scattermap', 'figure'),
+#     Output('fig_sunburst', 'figure'),
+#     Input('year_slider', 'value')
+# )
+
+# def update_plots(year):
+
+    
+#     # return fig_scattermap, fig_sunburst
 
 
 @app.callback(

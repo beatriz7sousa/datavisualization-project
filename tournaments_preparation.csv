@@ -4,7 +4,7 @@
 2,ATP 250,Chennai,Chennai,2010,Outdoor,Hard,Marin Cilic,Marcel Granollers,Santiago Ventura,450000.0,asia,Chennai,IN,13.08784,80.27847
 3,ATP 250,Sydney,Sydney,2010,Outdoor,Hard,Marcos Baghdatis,Daniel Nestor,Nenad Zimonjic,424250.0,oceania,Sydney,AU,-33.86785,151.20732
 4,ATP 250,Auckland,Auckland,2010,Outdoor,Hard,John Isner,Marcus Daniell,Horia Tecau,407250.0,oceania,Auckland,NZ,-36.84853,174.76349
-5,ATP 250,Johannesburg,Johannesburg,2010,Outdoor,Hard,Feliciano Lopez,Rohan Bopanna,Aisam-Ul-Haq Qureshi,500000.0,Africa,Johannesburg,ZA,-26.20227,28.04363
+5,ATP 250,Johannesburg,Johannesburg,2010,Outdoor,Hard,Feliciano Lopez,Rohan Bopanna,Aisam-Ul-Haq Qureshi,500000.0,africa,Johannesburg,ZA,-26.20227,28.04363
 6,ATP 250,Santiago,Santiago,2010,Outdoor,Clay,Thomaz Bellucci,Lukasz Kubot,Oliver Marach,450000.0,south america,Santiago,CL,-33.45694,-70.64827
 7,ATP 250,San Jose,San Jose,2010,Indoor,Hard,Fernando Verdasco,Mardy Fish,Sam Querrey,600000.0,north america,San José,CR,10.95173,-85.1361
 8,ATP 250,Costa do Sauipe,Costa do Sauipe,2010,Outdoor,Clay,Juan Carlos Ferrero,Pablo Cuevas,Marcel Granollers,500000.0,south america,Mata de São João,BR,-12.53028,-38.29917
@@ -37,7 +37,7 @@
 35,ATP 250,Chennai,"Chennai, India",2011,Outdoor,Hard,Stan Wawrinka,Mahesh Bhupathi,Leander Paes,450000.0,asia,Chennai,IN,13.08784,80.27847
 36,ATP 250,Sydney,"Sydney, Australia",2011,Outdoor,Hard,Gilles Simon,Lukas Dlouhy,Paul Hanley,474050.0,oceania,Sydney,AU,-33.86785,151.20732
 37,ATP 250,Auckland,"Auckland, New Zealand",2011,Outdoor,Hard,David Ferrer,Marcel Granollers,Tommy Robredo,450000.0,oceania,Auckland,NZ,-36.84853,174.76349
-38,ATP 250,Johannesburg,"Johannesburg, South Africa",2011,Outdoor,Hard,Kevin Anderson,Jamie Cerretani,Adil Shamasdin,500000.0,Africa,Johannesburg,ZA,-26.20227,28.04363
+38,ATP 250,Johannesburg,"Johannesburg, South Africa",2011,Outdoor,Hard,Kevin Anderson,Jamie Cerretani,Adil Shamasdin,500000.0,africa,Johannesburg,ZA,-26.20227,28.04363
 39,ATP 250,Santiago,"Santiago, Chile",2011,Outdoor,Clay,Tommy Robredo,Marcelo Melo,Bruno Soares,450000.0,south america,Santiago,CL,-33.45694,-70.64827
 40,ATP 250,San Jose,"San Jose, United States",2011,Indoor,Hard,Milos Raonic,Scott Lipsky,Rajeev Ram,600000.0,north america,San José,CR,10.95173,-85.1361
 41,ATP 250,Costa do Sauipe,"Costa do Sauipe, Brazil",2011,Outdoor,Clay,Nicolas Almagro,Marcelo Melo,Bruno Soares,527700.0,south america,Mata de São João,BR,-12.53028,-38.29917
@@ -337,7 +337,7 @@
 335,ATP 250,Zagreb,Zagreb,2010,Indoor,Hard,Marin Cilic,Jurgen Melzer,Philipp Petzschner,479070.0,europe,Zagreb,HR,45.81444,15.97798
 336,ATP 500,Rotterdam,Rotterdam,2010,Indoor,Hard,Robin Soderling,Daniel Nestor,Nenad Zimonjic,1538347.0,europe,Rotterdam,NL,51.9225,4.47917
 337,ATP 250,Marseille,"Marseille, France",2010,Indoor,Hard,Michael Llodra,Julien Benneteau,Michael Llodra,613209.6,europe,Marseille,FR,43.29695,5.38107
-338,ATP 250,Casablanca,Casablanca,2010,Outdoor,Clay,Stan Wawrinka,Robert Lindstedt,Horia Tecau,479070.0,Africa,Casablanca,MA,33.58831,-7.61138
+338,ATP 250,Casablanca,Casablanca,2010,Outdoor,Clay,Stan Wawrinka,Robert Lindstedt,Horia Tecau,479070.0,africa,Casablanca,MA,33.58831,-7.61138
 339,Masters 1000,ATP Masters 1000 Monte Carlo,Monte Carlo,2010,Outdoor,Clay,Rafael Nadal,Daniel Nestor,Nenad Zimonjic,2927650.0,europe,Monte-Carlo,MC,43.73976,7.42732
 340,ATP 500,Barcelona,Barcelona,2010,Outdoor,Clay,Fernando Verdasco,Daniel Nestor,Nenad Zimonjic,2123877.0,europe,Barcelona,ES,41.38879,2.15899
 341,Masters 1000,ATP Masters 1000 Rome,Rome,2010,Outdoor,Clay,Rafael Nadal,Bob Bryan,Mike Bryan,2927650.0,europe,Rome,IT,41.89193,12.51133
@@ -367,7 +367,7 @@
 365,ATP 250,Zagreb,"Zagreb, Croatia",2011,Indoor,Hard,Ivan Dodig,Dick Norman,Horia Tecau,479070.0,europe,Zagreb,HR,45.81444,15.97798
 366,ATP 500,Rotterdam,"Rotterdam, Netherlands",2011,Indoor,Hard,Robin Soderling,Jurgen Melzer,Philipp Petzschner,1538347.0,europe,Rotterdam,NL,51.9225,4.47917
 367,ATP 250,Marseille,"Marseille, France",2011,Indoor,Hard,Robin Soderling,Robin Haase,Ken Skupski,613209.6,europe,Marseille,FR,43.29695,5.38107
-368,ATP 250,Casablanca,"Casablanca, Morocco",2011,Outdoor,Clay,Pablo Andujar,Robert Lindstedt,Horia Tecau,479070.0,Africa,Casablanca,MA,33.58831,-7.61138
+368,ATP 250,Casablanca,"Casablanca, Morocco",2011,Outdoor,Clay,Pablo Andujar,Robert Lindstedt,Horia Tecau,479070.0,africa,Casablanca,MA,33.58831,-7.61138
 369,Masters 1000,ATP Masters 1000 Monte Carlo,"Monte Carlo, Monaco",2011,Outdoor,Clay,Rafael Nadal,Bob Bryan,Mike Bryan,2708076.25,europe,Monte-Carlo,MC,43.73976,7.42732
 370,ATP 500,Barcelona,"Barcelona, Spain",2011,Outdoor,Clay,Rafael Nadal,Santiago Gonzalez,Scott Lipsky,2123877.0,europe,Barcelona,ES,41.38879,2.15899
 371,ATP 250,Munich,"Munich, Germany",2011,Outdoor,Clay,Nikolay Davydenko,Simone Bolelli,Horacio Zeballos,479070.0,europe,Munich,DE,48.13743,11.57549
@@ -398,7 +398,7 @@
 396,ATP 250,Zagreb,"Zagreb, Croatia",2012,Indoor,Hard,Mikhail Youzhny,Marcos Baghdatis,Mikhail Youzhny,479070.0,europe,Zagreb,HR,45.81444,15.97798
 397,ATP 500,Rotterdam,"Rotterdam, Netherlands",2012,Indoor,Hard,Roger Federer,Michael Llodra,Nenad Zimonjic,1599561.5,europe,Rotterdam,NL,51.9225,4.47917
 398,ATP 250,Marseille,"Marseille, France",2012,Indoor,Hard,Juan Martin del Potro,Nicolas Mahut,Edouard Roger-Vasselin,613209.6,europe,Marseille,FR,43.29695,5.38107
-399,ATP 250,Casablanca,"Casablanca, Morocco",2012,Outdoor,Clay,Pablo Andujar,Dustin Brown,Paul Hanley,479070.0,Africa,Casablanca,MA,33.58831,-7.61138
+399,ATP 250,Casablanca,"Casablanca, Morocco",2012,Outdoor,Clay,Pablo Andujar,Dustin Brown,Paul Hanley,479070.0,africa,Casablanca,MA,33.58831,-7.61138
 400,Masters 1000,ATP Masters 1000 Monte Carlo,"Monte Carlo, Monaco",2012,Outdoor,Clay,Rafael Nadal,Bob Bryan,Mike Bryan,2921501.935,europe,Monte-Carlo,MC,43.73976,7.42732
 401,ATP 500,Barcelona,"Barcelona, Spain",2012,Outdoor,Clay,Rafael Nadal,Mariusz Fyrstenberg,Marcin Matkowski,2206383.5,europe,Barcelona,ES,41.38879,2.15899
 402,ATP 250,Bucharest,"Bucharest, Romania",2012,Outdoor,Clay,Gilles Simon,Robert Lindstedt,Horia Tecau,479070.0,europe,Bucharest,RO,44.43225,26.10626
@@ -429,7 +429,7 @@
 427,ATP 250,Zagreb,"Zagreb, Croatia",2013,Indoor,Hard,Marin Cilic,Julian Knowle,Filip Polasek,498019.88,europe,Zagreb,HR,45.81444,15.97798
 428,ATP 500,Rotterdam,"Rotterdam, Netherlands",2013,Indoor,Hard,Juan Martin del Potro,Robert Lindstedt,Nenad Zimonjic,1677676.525,europe,Rotterdam,NL,51.9225,4.47917
 429,ATP 250,Marseille,"Marseille, France",2013,Indoor,Hard,Jo-Wilfried Tsonga,Rohan Bopanna,Colin Fleming,637200.361,europe,Marseille,FR,43.29695,5.38107
-430,ATP 250,Casablanca,"Casablanca, Morocco",2013,Outdoor,Clay,Tommy Robredo,Julian Knowle,Filip Polasek,498019.88,Africa,Casablanca,MA,33.58831,-7.61138
+430,ATP 250,Casablanca,"Casablanca, Morocco",2013,Outdoor,Clay,Tommy Robredo,Julian Knowle,Filip Polasek,498019.88,africa,Casablanca,MA,33.58831,-7.61138
 431,Masters 1000,ATP Masters 1000 Monte Carlo,"Monte-Carlo, Monaco",2013,Outdoor,Clay,Novak Djokovic,Julien Benneteau,Nenad Zimonjic,3192197.777,europe,Monte-Carlo,MC,43.73976,7.42732
 432,ATP 500,Barcelona,"Barcelona, Spain",2013,Outdoor,Clay,Rafael Nadal,Alexander Peya,Bruno Soares,2306855.125,europe,Barcelona,ES,41.38879,2.15899
 433,ATP 250,Bucharest,"Bucharest, Romania",2013,Outdoor,Clay,Lukas Rosol,Max Mirnyi,Horia Tecau,498019.88,europe,Bucharest,RO,44.43225,26.10626
@@ -460,7 +460,7 @@
 458,ATP 250,Zagreb,"Zagreb, Croatia",2014,Indoor,Hard,Marin Cilic,Jean-Julien Rojer,Horia Tecau,517140.096,europe,Zagreb,HR,45.81444,15.97798
 459,ATP 500,Rotterdam,"Rotterdam, Netherlands",2014,Indoor,Hard,Tomas Berdych,Michael Llodra,Nicolas Mahut,1597703.773,europe,Rotterdam,NL,51.9225,4.47917
 460,ATP 250,Marseille,"Marseille, France",2014,Indoor,Hard,Ernests Gulbis,Julien Benneteau,Edouard Roger-Vasselin,661712.776,europe,Marseille,FR,43.29695,5.38107
-461,ATP 250,Casablanca,"Casablanca, Morocco",2014,Outdoor,Clay,Guillermo Garcia-Lopez,Jean-Julien Rojer,Horia Tecau,517140.096,Africa,Casablanca,MA,33.58831,-7.61138
+461,ATP 250,Casablanca,"Casablanca, Morocco",2014,Outdoor,Clay,Guillermo Garcia-Lopez,Jean-Julien Rojer,Horia Tecau,517140.096,africa,Casablanca,MA,33.58831,-7.61138
 462,Masters 1000,ATP Masters 1000 Monte Carlo,"Monte Carlo, Monaco",2014,Outdoor,Clay,Stan Wawrinka,Bob Bryan,Mike Bryan,3455867.259,europe,Monte-Carlo,MC,43.73976,7.42732
 463,ATP 500,Barcelona,"Barcelona, Spain",2014,Outdoor,Clay,Kei Nishikori,Jesse Huta Galung,Stephane Robert,2264441.461,europe,Barcelona,ES,41.38879,2.15899
 464,ATP 250,Bucharest,"Bucharest, Romania",2014,Outdoor,Clay,Grigor Dimitrov,Jean-Julien Rojer,Horia Tecau,517140.096,europe,Bucharest,RO,44.43225,26.10626
@@ -491,7 +491,7 @@
 489,ATP 250,Zagreb,"Zagreb, Croatia",2015,Indoor,Hard,Guillermo Garcia-Lopez,Marin Draganja,Henri Kontinen,526242.426,europe,Zagreb,HR,45.81444,15.97798
 490,ATP 500,Rotterdam,"Rotterdam, Netherlands",2015,Indoor,Hard,Stan Wawrinka,Jean-Julien Rojer,Horia Tecau,1704270.233,europe,Rotterdam,NL,51.9225,4.47917
 491,ATP 250,Marseille,"Marseille, France",2015,Indoor,Hard,Gilles Simon,Marin Draganja,Henri Kontinen,673721.464,europe,Marseille,FR,43.29695,5.38107
-492,ATP 250,Casablanca,"Casablanca, Morocco",2015,Outdoor,Clay,Martin Klizan,Rameez Junaid,Adil Shamasdin,526242.426,Africa,Casablanca,MA,33.58831,-7.61138
+492,ATP 250,Casablanca,"Casablanca, Morocco",2015,Outdoor,Clay,Martin Klizan,Rameez Junaid,Adil Shamasdin,526242.426,africa,Casablanca,MA,33.58831,-7.61138
 493,Masters 1000,ATP Masters 1000 Monte Carlo,"Monte-Carlo, Monaco",2015,Outdoor,Clay,Novak Djokovic,Bob Bryan,Mike Bryan,3858158.307,europe,Monte-Carlo,MC,43.73976,7.42732
 494,ATP 500,Barcelona,"Barcelona, Spain",2015,Outdoor,Clay,Kei Nishikori,Marin Draganja,Henri Kontinen,2411569.181,europe,Barcelona,ES,41.38879,2.15899
 495,ATP 250,Bucharest,"Bucharest, Romania",2015,Outdoor,Clay,Guillermo Garcia-Lopez,Marius Copil,Adrian Ungur,526242.426,europe,Bucharest,RO,44.43225,26.10626
@@ -523,7 +523,7 @@
 521,ATP 250,Sofia,"Sofia, Bulgaria",2016,Indoor,Hard,Roberto Bautista Agut,Wesley Koolhof,Matwe Middelkoop,553666.522,europe,Sofia,BG,42.69751,23.32415
 522,ATP 500,Rotterdam,"Rotterdam, Netherlands",2016,Indoor,Hard,Martin Klizan,Nicolas Mahut,Vasek Pospisil,1834114.172,europe,Rotterdam,NL,51.9225,4.47917
 523,ATP 250,Marseille,"Marseille, France",2016,Indoor,Hard,Nick Kyrgios,Mate Pavic,Michael Venus,708927.786,europe,Marseille,FR,43.29695,5.38107
-524,ATP 250,Marrakech,"Marrakech, Morocco",2016,Outdoor,Clay,Federico Delbonis,Guillermo Duran,Maximo Gonzalez,553666.522,Africa,Marrakesh,MA,31.63416,-7.99994
+524,ATP 250,Marrakech,"Marrakech, Morocco",2016,Outdoor,Clay,Federico Delbonis,Guillermo Duran,Maximo Gonzalez,553666.522,africa,Marrakesh,MA,31.63416,-7.99994
 525,Masters 1000,ATP Masters 1000 Monte Carlo,"Monte Carlo, Monaco",2016,Outdoor,Clay,Rafael Nadal,Pierre-Hugues Herbert,Nicolas Mahut,4359010.023,europe,Monte-Carlo,MC,43.73976,7.42732
 526,ATP 500,Barcelona,"Barcelona, Spain",2016,Outdoor,Clay,Rafael Nadal,Bob Bryan,Mike Bryan,2585226.733,europe,Barcelona,ES,41.38879,2.15899
 527,ATP 250,Bucharest,"Bucharest, Romania",2016,Outdoor,Clay,Fernando Verdasco,Florin Mergea,Horia Tecau,553666.522,europe,Bucharest,RO,44.43225,26.10626
@@ -555,7 +555,7 @@
 553,ATP 250,Sofia,"Sofia, Bulgaria",2017,Indoor,Hard,Grigor Dimitrov,Viktor Troicki,Nenad Zimonjic,575214.026,europe,Sofia,BG,42.69751,23.32415
 554,ATP 500,Rotterdam,"Rotterdam, Netherlands",2017,Indoor,Hard,Jo-Wilfried Tsonga,Ivan Dodig,Marcel Granollers,1974156.979,europe,Rotterdam,NL,51.9225,4.47917
 555,ATP 250,Marseille,"Marseille, France",2017,Indoor,Hard,Jo-Wilfried Tsonga,Julien Benneteau,Nicolas Mahut,736543.51,europe,Marseille,FR,43.29695,5.38107
-556,ATP 250,Marrakech,"Marrakech, Morocco",2017,Outdoor,Clay,Borna Coric,Dominic Inglot,Mate Pavic,575214.026,Africa,Marrakesh,MA,31.63416,-7.99994
+556,ATP 250,Marrakech,"Marrakech, Morocco",2017,Outdoor,Clay,Borna Coric,Dominic Inglot,Mate Pavic,575214.026,africa,Marrakesh,MA,31.63416,-7.99994
 557,Masters 1000,ATP Masters 1000 Monte Carlo,"Monte Carlo, Monaco",2017,Outdoor,Clay,Rafael Nadal,Rohan Bopanna,Pablo Cuevas,4928805.235,europe,Monte-Carlo,MC,43.73976,7.42732
 558,ATP 500,Barcelona,"Barcelona, Spain",2017,Outdoor,Clay,Rafael Nadal,Florin Mergea,Aisam-Ul-Haq Qureshi,2772580.364,europe,Barcelona,ES,41.38879,2.15899
 559,ATP 250,Budapest,"Budapest, Hungary",2017,Outdoor,Clay,Lucas Pouille,Brian Baker,Nikola Mektic,575214.026,europe,Budapest,HU,47.49801,19.03991
@@ -588,7 +588,7 @@
 586,ATP 250,Sofia,"Sofia, Bulgaria",2018,Indoor,Hard,Mirza Basic,Robin Haase,Matwe Middelkoop,597607.887,europe,Sofia,BG,42.69751,23.32415
 587,ATP 500,Rotterdam,"Rotterdam, Netherlands",2018,Indoor,Hard,Roger Federer,Pierre-Hugues Herbert,Nicolas Mahut,2125202.427,europe,Rotterdam,NL,51.9225,4.47917
 588,ATP 250,Marseille,"Marseille, France",2018,Indoor,Hard,Karen Khachanov,Raven Klaasen,Michael Venus,765245.126,europe,Marseille,FR,43.29695,5.38107
-589,ATP 250,Marrakech,"Marrakech, Morocco",2018,Outdoor,Clay,Pablo Andujar,Nikola Mektic,Alexander Peya,597607.887,Africa,Marrakesh,MA,31.63416,-7.99994
+589,ATP 250,Marrakech,"Marrakech, Morocco",2018,Outdoor,Clay,Pablo Andujar,Nikola Mektic,Alexander Peya,597607.887,africa,Marrakesh,MA,31.63416,-7.99994
 590,Masters 1000,ATP Masters 1000 Monte Carlo,"Monte Carlo, Monaco",2018,Outdoor,Clay,Rafael Nadal,Bob Bryan,Mike Bryan,5577157.2809999995,europe,Monte-Carlo,MC,43.73976,7.42732
 591,ATP 500,Barcelona,"Barcelona, Spain",2018,Outdoor,Clay,Rafael Nadal,Feliciano Lopez,Marc Lopez,2974726.612,europe,Barcelona,ES,41.38879,2.15899
 592,ATP 250,Budapest,"Budapest, Hungary",2018,Outdoor,Clay,Marco Cecchinato,Dominic Inglot,Franko Skugor,597607.887,europe,Budapest,HU,47.49801,19.03991
@@ -621,7 +621,7 @@
 619,ATP 250,Sofia,"Sofia, Bulgaria",2019,Indoor,Hard,Daniil Medvedev,Jurgen Melzer,Nikola Mektic,624004.644,europe,Sofia,BG,42.69751,23.32415
 620,ATP 500,Rotterdam,"Rotterdam, Netherlands",2019,Indoor,Hard,Gael Monfils,Jeremy Chardy,Henri Kontinen,2234041.808,europe,Rotterdam,NL,51.9225,4.47917
 621,ATP 250,Marseille,"Marseille, France",2019,Indoor,Hard,Stefanos Tsitsipas,Jeremy Chardy,Fabrice Martin,792073.046,europe,Marseille,FR,43.29695,5.38107
-622,ATP 250,Marrakech,"Marrakech, Morocco",2019,Outdoor,Clay,Benoit Paire,Jurgen Melzer,Franko Skugor,624004.644,Africa,Marrakesh,MA,31.63416,-7.99994
+622,ATP 250,Marrakech,"Marrakech, Morocco",2019,Outdoor,Clay,Benoit Paire,Jurgen Melzer,Franko Skugor,624004.644,africa,Marrakesh,MA,31.63416,-7.99994
 623,Masters 1000,ATP Masters 1000 Monte Carlo,"Monte Carlo, Monaco",2019,Outdoor,Clay,Fabio Fognini,Nikola Mektic,Franko Skugor,5945822.938,europe,Monte-Carlo,MC,43.73976,7.42732
 624,ATP 500,Barcelona,"Barcelona, Spain",2019,Outdoor,Clay,Dominic Thiem,Juan Sebastian Cabal,Robert Farah,2923875.993,europe,Barcelona,ES,41.38879,2.15899
 625,ATP 250,Budapest,"Budapest, Hungary",2019,Outdoor,Clay,Matteo Berrettini,Ken Skupski,Neal Skupski,624004.644,europe,Budapest,HU,47.49801,19.03991
