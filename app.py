@@ -59,15 +59,15 @@ app.layout = html.Div([
 
     html.Div([
         html.H1('Tennis Statistics'),
-        html.Img(src=app.get_asset_url('tennis_ball.png'),
-                 style={'position': 'relative', 'width': '7%', 'right': '-83px', 'top': '-20px'}),
+        #html.Img(src=app.get_asset_url('tennis_ball.png'),
+        #         style={'position': 'relative', 'width': '7%', 'right': '-83px', 'top': '-20px'}),
         html.Br(),
         html.Label('With the aim of getting a better understanding of Tennis and its tournaments around the world, this interactive dashboard provides insights into key performance indicators, characteristics of each type of tournament and player statistics.'),
     ], id='1st row for title', className='main_box_style'),
 
     html.Div([
         html.Div([
-    
+            html.H2('Tournaments by Cash Prize (US dollars)'),
                 html.Div([
                     region_drop,
                     html.Br(),
@@ -80,6 +80,7 @@ app.layout = html.Div([
                 ], id='Bar plot and region dropdown', style={'width': '40%'}, className='main_box_style'),
 
         html.Div([
+            html.H2('Tournaments Map'),
             html.Div([
                 dcc.Graph(id='scattermap'),
                     ], id='Map', className='main_box_style'),
@@ -101,14 +102,15 @@ app.layout = html.Div([
             ], id='Boys image'),
 
             html.Div([
+                    html.H2('Number of tournaments depending on court characteristics'),
                     dcc.Graph(id='fig_sunburst'),
             ], id='Sunburst', className='main_box_style'),
 
         ], id='Sunburst plot and image', style={'width': '40%'}),
 
         html.Div([
+                html.H2('Tournament Facts'),
             html.Div([
-    
                 html.Div([
                     html.H4('Longest Game (in minutes)', style={'font-weight':'normal'}),
                     html.H3(id='longest_game')
@@ -142,7 +144,7 @@ app.layout = html.Div([
                 ], id='Facts', style={'display': 'flex', "height": '10%'}),
 
             html.Div([
-    
+                    html.H2('Tournament Final Statistics'),
                 dcc.Graph(id='radar_chart'),
                 # if we want a title
                 # html.H3('Click on the Map and see the output Bellow (you can use it in the callback [the last one in the app.py]):'),
@@ -153,8 +155,9 @@ app.layout = html.Div([
         ], id='3rd row', style={'display': 'flex'}),
 
     html.Div([
-        html.P('Our names: Ana Mendonça (20220678), Beatriz Sousa (20220674), Cláudia Rocha (R20191249), Susana Dias (20220198)'),
-    ], id='4th row for authors', style={'display': 'flex'})
+        html.H3('Project made by:', style={'font-size': 'medium'}),
+        html.Label('Ana Mendonça (20220678), Beatriz Sousa (20220674), Cláudia Rocha (R20191249), Susana Dias (20220198)'),
+    ], id='4th row for authors')
 ])
 
 
