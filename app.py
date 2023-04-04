@@ -13,11 +13,6 @@ import json
 tournaments = pd.read_csv('tournaments_preparation.csv')
 all_match = pd.read_csv('all_match_preparation.csv')
 
-
-with open('countries.geojson') as f:
-    data_geo = json.load(f)
-
-
 # lists for radar
 winner_skills = ['winner_aces', 'winner_break_points_converted', 'winner_break_points_saved', 'winner_double_faults', 'winner_return_points_won', 'winner_total_points_won']
 winner_skills_norm = ['winner_aces_norm', 'winner_break_points_converted_norm', 'winner_break_points_saved_norm', 'winner_double_faults_norm', 'winner_return_points_won_norm', 'winner_total_points_won_norm']
@@ -40,7 +35,7 @@ slider_year = dcc.Slider(
 )
 
 region_drop = dcc.Dropdown(
-        id = 'drop_region',
+        id='drop_region',
         clearable=False, 
         searchable=False, 
         options=[{'label': 'World', 'value': 'world'},
@@ -51,7 +46,7 @@ region_drop = dcc.Dropdown(
                  {'label': 'South America', 'value': 'south america'},
                  {'label': 'Oceania', 'value': 'oceania'}],
         value='world', 
-        style= {'margin': '4px', 'box-shadow': '0px 0px #ebb36a', 'border-color': '#ebb36a'}
+        style= {'margin': '4px', 'box-shadow': '0px 0px #B7EAFF', 'border-color': '#B7EAFF'}
     )
 
 #App########################################################################################################################
@@ -65,7 +60,9 @@ app.layout = html.Div([
     html.Div([
         html.H1('Tennis Statistics'),
         html.Img(src=app.get_asset_url('tennis_ball.png'),
-                 style={'position': 'relative', 'width': '7%', 'right': '-83px', 'top': '-20px'})
+                 style={'position': 'relative', 'width': '7%', 'right': '-83px', 'top': '-20px'}),
+        html.Br(),
+        html.Label('With the aim of getting a better understanding of Tennis and its tournaments around the world, this interactive dashboard provides insights into key performance indicators, characteristics of each type of tournament and player statistics.'),
     ], id='1st row for title', className='main_box_style'),
 
     html.Div([
@@ -99,8 +96,15 @@ app.layout = html.Div([
 
     html.Div([
         html.Div([
-            dcc.Graph(id='fig_sunburst'),
-        ], id='Sunburst plot', style={'width': '40%'}, className='main_box_style'),
+            html.Div([
+                    html.Img(src=app.get_asset_url('boys-playing.png'),style={'position': 'relative'})
+            ], id='Boys image'),
+
+            html.Div([
+                    dcc.Graph(id='fig_sunburst'),
+            ], id='Sunburst', className='main_box_style'),
+
+        ], id='Sunburst plot and image', style={'width': '40%'}),
 
         html.Div([
             html.Div([
@@ -149,7 +153,7 @@ app.layout = html.Div([
         ], id='3rd row', style={'display': 'flex'}),
 
     html.Div([
-        html.H2('Our names:'),
+        html.P('Our names: Ana Mendonça (20220678), Beatriz Sousa (20220674), Cláudia Rocha (R20191249), Susana Dias (20220198)'),
     ], id='4th row for authors', style={'display': 'flex'})
 ])
 
@@ -172,25 +176,21 @@ def update_bar_plot(year, region):
         tournaments_filtered = tournaments[tournaments['year'] == year]
 
     ############---BAR PLOT----##############################################################################################
-
     # sorting the dataset by prize
     tournaments_filtered_top = tournaments_filtered.sort_values('tourney_fin_commit_USD', ascending=False)
     
     # getting the top 10
-    tournaments_filtered_top = tournaments_filtered.iloc[:10,:]
+    tournaments_filtered_top = tournaments_filtered_top.iloc[:10,:]
     
     data_bar_plot = dict(type='bar',
                         x=tournaments_filtered_top['tourney_name'],
                         y=tournaments_filtered_top['tourney_fin_commit_USD'],
-                        marker_color=['#036666' if x=='Grand Slam' else '#248277' if x=='Masters 1000' else '#358f80' if x=='ATP Finals' else '#56ab91' if x=='ATP 500' else '#78c6a3' if x=='ATP 250' else '#99e2b4' if x=='Next Gen Finals' else '#000000' for x in tournaments_filtered['tourney_type']])
+                        marker_color=['#75c2a2' if x=='Grand Slam' else '#b7eaff' if x=='Masters 1000' else '#548570' if x=='ATP Finals' else '#76B4CD' if x=='ATP 500' else '#37648E' if x=='ATP 250' else '#a0bb9a' if x=='Next Gen Finals' else '#000000' for x in tournaments_filtered_top['tourney_type']])
 
-    layout_bar_plot = dict(title=dict(text='Most valuable tournaments',
-                                      font=dict(size=24),
-                                      x=0.5, y=0.9),
-                        yaxis=dict(title='Prize'),
-                        font_color='#363535',
-                        paper_bgcolor='rgba(0,0,0,0)',
-                        plot_bgcolor='rgba(0,0,0,0)')
+    layout_bar_plot = dict(yaxis=dict(title='Prize'),
+                           font_color='#363535',
+                           paper_bgcolor='rgba(0,0,0,0)',
+                           plot_bgcolor='rgba(0,0,0,0)')
 
     fig_bar = go.Figure(data=data_bar_plot, layout=layout_bar_plot)
 
@@ -200,7 +200,7 @@ def update_bar_plot(year, region):
                            lon=tournaments_filtered['longitude'],
                            mode='markers',
                            text=tournaments_filtered['tourney_name'], #marker wll show the name of the tournament
-                           marker=dict(color=['#036666' if x=='Grand Slam' else '#248277' if x=='Masters 1000' else '#358f80' if x=='ATP Finals' else '#56ab91' if x=='ATP 500' else '#78c6a3' if x=='ATP 250' else '#99e2b4' if x=='Next Gen Finals' else '#000000' for x in tournaments_filtered['tourney_type']],
+                           marker=dict(color=['#75c2a2' if x=='Grand Slam' else '#b7eaff' if x=='Masters 1000' else '#548570' if x=='ATP Finals' else '#76B4CD' if x=='ATP 500' else '#37648E' if x=='ATP 250' else '#a0bb9a' if x=='Next Gen Finals' else '#000000' for x in tournaments_filtered['tourney_type']],
                                        opacity = 1,
                                        size=10
                                       )
@@ -211,9 +211,6 @@ def update_bar_plot(year, region):
                                      projection=dict(type='natural earth'),
                                      bgcolor= 'rgba(0,0,0,0)',
                                      landcolor='#cccccc'),
-                            title=dict(text='Map',
-                                        x=.5 # Title relative position according to the xaxis, range (0,1)
-                                      ),
                             paper_bgcolor='rgba(0,0,0,0)',
                             plot_bgcolor='rgba(0,0,0,0)'
                             )
@@ -226,23 +223,23 @@ def update_bar_plot(year, region):
     tournaments_char['Characteristics'] = 'Characteristics'
     tournaments_char = tournaments_char.reset_index()
 
-    colour_type={'Grand Slam': '#036666',
-                'Masters 1000': '#248277',
-                'ATP Finals': '#358f80',
-                'ATP 500': '#56ab91',
-                'ATP 250': '#78c6a3',
-                'Next Gen Finals': '#99e2b4',
-                'Characteristics': 'rgba(0,0,0,0)'}
+    colour_type={'Grand Slam': '#75c2a2',
+                'Masters 1000': '#b7eaff',
+                'ATP Finals': '#548570',
+                'ATP 500': '#76B4CD',
+                'ATP 250': '#37648E',
+                'Next Gen Finals': '#a0bb9a',
+                '?': 'rgba(0,0,0,0)'}
 
     fig_sunburst = px.sunburst(tournaments_char, 
-                                path = ['Characteristics', 'tourney_type', 'tourney_conditions', 'tourney_surface'],
+                                path = ['tourney_type', 'tourney_conditions', 'tourney_surface'],
                                 values = 'Count',
                                 color=tournaments_char['tourney_type'],
                                 # category_orders={'tourney_type': ['Grand Slam', 'Masters 1000', 'ATP Finals', 'ATP 500', 'ATP 250', 'Next Gen Finals']},
                                 # color_discrete_sequence=['#036666', '#248277', '#358f80', '#56ab91', '#78c6a3','#99e2b4', 'rgba(0,0,0,0)'],
                                 color_discrete_map=colour_type,
                                 #color_discrete_sequence = ['#F4F5F0','#E6F8F0', '#C0EFE2', '#9CDDCE', '#', '#54B6A4', '#2F9F8F', '#1E7B6F','#98ff6e','#80d819','#00ae7d'],
-                                title = 'Characteristics of the tournaments').update_traces(hovertemplate = '%{label}<br>' + 'Number of tournaments: %{value}', branchvalues='total')
+                                title = 'Characteristics of the tournaments').update_traces(hovertemplate = '%{label}<br>' + 'Number of tournaments: %{value}', branchvalues='total', marker=dict(line=dict(width=1.5, color='white')))
 
     fig_sunburst = fig_sunburst.update_layout(margin=dict(t=0, l=0, r=0, b=10),
                                                           paper_bgcolor='rgba(0,0,0,0)',
@@ -250,19 +247,6 @@ def update_bar_plot(year, region):
                                                           )
     
     return fig_bar, fig_scattermap, fig_sunburst
-
-
-# @app.callback(
-#     #Output('scattermap', 'figure'),
-#     Output('fig_sunburst', 'figure'),
-#     Input('year_slider', 'value')
-# )
-
-# def update_plots(year):
-
-    
-#     # return fig_scattermap, fig_sunburst
-
 
 @app.callback(
     Output('longest_game', 'children'),

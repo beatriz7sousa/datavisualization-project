@@ -1,6 +1,6 @@
 body {
-    background-color: #e6f8cc;
-    font-family: "Open Sans", verdana, arial, sans-serif;
+    background-color: #fdfdfd;
+    font-family: "LatoWeb";
 }
 
 .box {
@@ -75,7 +75,7 @@ Button {
 
 .box_stats{
   border-radius: 20px;
-  background-color: #C0EFE2;
+  background-color: #B7EAFF;
   margin-left: 2%;
   margin-right: 2%;
   /* margin-inside: 1%; */
@@ -90,7 +90,7 @@ Button {
 .main_box_style {
   padding: .5%;
   border-radius: 20px;
-  background-color: rgb(244, 245, 240);
+  background-color: #edf9f4;
   margin: 20px;
   box-shadow: 2px 2px 2px lightgrey;
 }
