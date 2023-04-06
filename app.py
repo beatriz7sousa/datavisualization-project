@@ -246,7 +246,8 @@ def update_bar_plot(year, region):
 
     fig_sunburst = fig_sunburst.update_layout(margin=dict(t=0, l=0, r=0, b=10),
                                                           paper_bgcolor='rgba(0,0,0,0)',
-                                                          font_color='#363535'
+                                                          font_color='#363535',
+                                                            font_family = "'Didot', serif"
                                                           )
     
     return fig_bar, fig_scattermap, fig_sunburst
@@ -327,7 +328,8 @@ def update_stats_radar(ClickData, year):
                                         opacity = 0.8, 
                                         hoverinfo = 'text',
                                         name = text_scores_winner,
-                                        text = [winner_for_text.index[i] + ': ' + str(winner_for_text['score'][i]) for i in range(len(winner_for_text))]
+                                        text = [winner_for_text.index[i] + ': ' + str(winner_for_text['score'][i]) for i in range(len(winner_for_text))],
+                                        textfont = dict(family="'Didot', serif")
                         ))
 
     fig_radar.add_trace(go.Scatterpolar(r = loser_for_plot['score'],
@@ -359,7 +361,8 @@ def update_stats_radar(ClickData, year):
                             plot_bgcolor = 'rgba(0, 0, 0, 0)',
                             paper_bgcolor = 'rgba(0, 0, 0, 0)',
                             font_color = 'black',
-                            font_size = 15
+                            font_size = 15,
+                            font_family="'Didot', serif"
                             )
 
     return longest_game_str, shortest_game_str, most_games_won_str, most_frequent_matchup_str, most_break_points_saved_str, most_aces_str, fig_radar
