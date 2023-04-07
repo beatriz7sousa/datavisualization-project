@@ -27,7 +27,6 @@ slider_year = dcc.Slider(
     id='year_slider',
     min=tournaments['year'].min(),
     max=tournaments['year'].max(),
-    # handleLabel={'showCurrentValue': True, 'label': 'year'},
     marks={str(i): '{}'.format(str(i)) for i in
            [2010, 2013, 2016, 2019]},
     value=tournaments['year'].min(),
@@ -67,99 +66,126 @@ app.layout = html.Div([
 
     html.Div([
         html.Div([
-            html.H2('Tournaments by Cash Prize (US dollars)'),
+            html.Div([
+                html.H2('Tournaments by Prize (US dollars)'),    
+                dcc.Graph(id='bar_plots'),
+                ], id='Bar plot', className='main_box_style'),
+
                 html.Div([
-                    region_drop,
-                    html.Br(),
-                        ], id='Region dropdown', style={'height': '10%'}, className='main_box_style'),
-    
-                html.Div([
-                    dcc.Graph(id='bar_plots'),
-                        ], id='Bar plots', className='main_box_style'),
-
-                ], id='Bar plot and region dropdown', style={'width': '40%'}, className='main_box_style'),
-
-        html.Div([
-            html.H2('Tournaments Map'),
-            html.Div([
-                dcc.Graph(id='scattermap'),
-                    ], id='Map', className='main_box_style'),
-
-            html.Div([
-                html.Label('Year Slider'),
-                slider_year,
-                html.Br(),
-                    ], id='Slider', style={"height": '10%'}, className='main_box_style'),
-
-                ], id='Map and Slider', style={'width': '60%'}, className='main_box_style')
-
-            ], id='2nd row', style={'display': 'flex'}),
-
-    html.Div([
-        html.Div([
-            html.Div([
                     html.Img(src=app.get_asset_url('boys-playing.png'),style={'position': 'relative'})
-            ], id='Boys image'),
+                ], id='Boys image'),
 
-            html.Div([
-                    html.H2('Number of tournaments depending on court characteristics'),
+                html.Div([
+                    html.H2('Tournaments by Characteristics'),
+                    html.Br(),
+                    html.Label("Slide the cursor over the chart for the number of tournaments."),
+                    html.Br(),
+                    html.Br(),
+                    html.Br(),
                     dcc.Graph(id='fig_sunburst'),
-            ], id='Sunburst', className='main_box_style'),
+                ], id='Sunburst', className='main_box_style'),
 
-        ], id='Sunburst plot and image', style={'width': '40%'}),
+            ], id='Left Body'),
 
         html.Div([
-                html.H2('Tournament Facts'),
-            html.Div([
                 html.Div([
-                    html.H4('Longest Game (in minutes)', style={'font-weight':'normal'}),
-                    html.H3(id='longest_game')
-                ],className='box_stats'),
+                    html.Br(),
+                    html.Label('Select one region and one year to watch the dashboard change.'),
+                    html.Br(),
+                    html.Br(),
+                    html.Br(),
+
+                    html.Div([
+                        html.Div([
+                            region_drop,
+                            html.Br(),
+                        ], id='Region dropdown', style={'height': '10%', 'width': '35%'}),
+
+                        html.Div([
+                            html.Label('Year Slider'),
+                            slider_year,
+                            html.Br(),
+                        ], id='Slider', style={'height': '10%', 'width': '65%'})
+
+                    ], id='Slider and Dropdown', style={'display': 'flex'})
+                ], id='Slider and Dropdown and title', className='main_box_style'),
 
                 html.Div([
-                    html.H4('Shortest Game (in minutes)', style={'font-weight':'normal'}),
-                    html.H3(id='shortest_game')
-                ],className='box_stats'),
-            
-                html.Div([
-                    html.H4('Most Games Won', style={'font-weight':'normal'}),
-                    html.H3(id='most_games_won')
-                ],className='box_stats'),
+                    html.H2('Tournaments Map'),
+                    html.Br(),
+                    html.Label("Select one tournament to see some facts and the final's match statistics."),
+                    dcc.Graph(id='scattermap'),
+                ], id='Map', className='main_box_style'),
 
                 html.Div([
-                    html.H4('Most Frequent Matchup', style={'font-weight':'normal'}),
-                    html.H3(id='most_frequent_matchup')
-                ],className='box_stats'),
-            
-                html.Div([
-                    html.H4('Most Break Points Saved', style={'font-weight':'normal'}),
-                    html.H3(id='most_break_points_saved')
-                ],className='box_stats'),
+    
+                    html.Div([
+                        html.H2('Tournament Facts')
+                    ], id='Title'),
+
+                    html.Div([
+                        html.Div([
+                            html.H3('Longest Game (in minutes)'),
+                            html.H4(id='longest_game')
+                        ],className='box_stats'),
+
+                        html.Div([
+                            html.H3('Shortest Game (in minutes)'),
+                            html.H4(id='shortest_game')
+                        ],className='box_stats'),
+                    
+                        html.Div([
+                            html.H3('Most Finals Won'),
+                            html.H4(id='most_tournaments_won')
+                        ],className='box_stats'),
+
+                        html.Div([
+                            html.H3('Most Frequent Matchup'),
+                            html.H4(id='most_frequent_matchup')
+                        ],className='box_stats'),
+                    
+                        html.Div([
+                            html.H3('Most Break Points Saved'),
+                            html.H4(id='most_break_points_saved')
+                        ],className='box_stats'),
+
+                        html.Div([
+                            html.H3('Most Aces'),
+                            html.H4(id='most_aces')
+                        ],className='box_stats'),
+
+                    ], id='Facts', style={'display': 'flex'})
+
+                ], id='Facts and title'),
+
+                html.Br(),
 
                 html.Div([
-                    html.H4('Most Aces', style={'font-weight':'normal'}),
-                    html.H3(id='most_aces')
-                ],className='box_stats'),
-
-                ], id='Facts', style={'display': 'flex', "height": '10%'}),
-
-            html.Div([
                     html.H2('Tournament Final Statistics'),
-                dcc.Graph(id='radar_chart'),
-                # if we want a title
-                # html.H3('Click on the Map and see the output Bellow (you can use it in the callback [the last one in the app.py]):'),
+                    html.Br(),
+                    html.Label(id='radar_legend'),
+                    html.Br(),
+                    html.Br(),
+                    html.Br(),
+                    dcc.Graph(id='radar_chart'),
+                ], id='Radar', className='main_box_style')
 
-                ], id='Radar plot', className='main_box_style')
-            ], id='Radar and facts', style={'width': '70%'})
-
-        ], id='3rd row', style={'display': 'flex'}),
+            ], id='Right Body'),
+    ], id='App body', style={'display': 'flex'}),
 
     html.Div([
-        html.H3('Project made by:', style={'font-size': 'medium'}),
-        html.Label('Ana Mendonça (20220678), Beatriz Sousa (20220674), Cláudia Rocha (R20191249), Susana Dias (20220198)'),
-    ], id='4th row for authors')
-])
+        html.Div([
+            html.H3('Project made by:', style={'font-size': 'medium', 'text-align': 'left'}),
+            html.Label('Ana Mendonça (20220678), Beatriz Sousa (20220674), Cláudia Rocha (R20191249), Susana Dias (20220198)'),
+        ], id='Authors', style={'width': '70%'}),
 
+        html.Div([
+            html.H3('Sources:', style={'font-size': 'medium', 'text-align': 'left'}),
+            html.A('GitHub', href='https://github.com/serve-and-volley/atp-world-tour-tennis-data', target='_blank'),
+        ], id='Sources', style={'width': '30%'})
+
+    ], id='Authors and Sources', style={'display': 'flex'})
+])
 
 #Callbacks####################################################################################################################
 
@@ -188,12 +214,18 @@ def update_bar_plot(year, region):
     data_bar_plot = dict(type='bar',
                         x=tournaments_filtered_top['tourney_name'],
                         y=tournaments_filtered_top['tourney_fin_commit_USD'],
+                        text=tournaments_filtered_top['tourney_fin_commit_USD'],
+                        hoverinfo='text',
+                        textposition = 'none',
                         marker_color=['#75c2a2' if x=='Grand Slam' else '#b7eaff' if x=='Masters 1000' else '#548570' if x=='ATP Finals' else '#76B4CD' if x=='ATP 500' else '#37648E' if x=='ATP 250' else '#a0bb9a' if x=='Next Gen Finals' else '#000000' for x in tournaments_filtered_top['tourney_type']])
 
-    layout_bar_plot = dict(yaxis=dict(title='Prize'),
+    layout_bar_plot = dict(margin=dict(t=0, l=0, r=0, b=10),
+                           yaxis=dict(title='Prize'),
                            font_color='#363535',
                            paper_bgcolor='rgba(0,0,0,0)',
-                           plot_bgcolor='rgba(0,0,0,0)')
+                           plot_bgcolor='rgba(0,0,0,0)',
+                           font_family='Bahnschrift Light',
+                           hoverlabel=dict(font_family='Bahnschrift Light'))
 
     fig_bar = go.Figure(data=data_bar_plot, layout=layout_bar_plot)
 
@@ -203,10 +235,11 @@ def update_bar_plot(year, region):
                            lon=tournaments_filtered['longitude'],
                            mode='markers',
                            text=tournaments_filtered['tourney_name'], #marker wll show the name of the tournament
+                           hoverinfo='text', #only show the tournament name on hover
                            marker=dict(color=['#75c2a2' if x=='Grand Slam' else '#b7eaff' if x=='Masters 1000' else '#548570' if x=='ATP Finals' else '#76B4CD' if x=='ATP 500' else '#37648E' if x=='ATP 250' else '#a0bb9a' if x=='Next Gen Finals' else '#000000' for x in tournaments_filtered['tourney_type']],
                                        opacity = 1,
                                        size=10
-                                      )
+                                      ),
                            )
 
     layout_scattermap = dict(geo=dict(scope=region,
@@ -215,7 +248,9 @@ def update_bar_plot(year, region):
                                      bgcolor= 'rgba(0,0,0,0)',
                                      landcolor='#cccccc'),
                             paper_bgcolor='rgba(0,0,0,0)',
-                            plot_bgcolor='rgba(0,0,0,0)'
+                            plot_bgcolor='rgba(0,0,0,0)',
+                            hoverlabel=dict(font_family='Bahnschrift Light'),
+                            margin=dict(t=0, l=4, r=4, b=10)
                             )
 
     fig_scattermap = go.Figure(data=data_scattermap, layout=layout_scattermap)
@@ -238,16 +273,14 @@ def update_bar_plot(year, region):
                                 path = ['tourney_type', 'tourney_conditions', 'tourney_surface'],
                                 values = 'Count',
                                 color=tournaments_char['tourney_type'],
-                                # category_orders={'tourney_type': ['Grand Slam', 'Masters 1000', 'ATP Finals', 'ATP 500', 'ATP 250', 'Next Gen Finals']},
-                                # color_discrete_sequence=['#036666', '#248277', '#358f80', '#56ab91', '#78c6a3','#99e2b4', 'rgba(0,0,0,0)'],
                                 color_discrete_map=colour_type,
-                                #color_discrete_sequence = ['#F4F5F0','#E6F8F0', '#C0EFE2', '#9CDDCE', '#', '#54B6A4', '#2F9F8F', '#1E7B6F','#98ff6e','#80d819','#00ae7d'],
                                 title = 'Characteristics of the tournaments').update_traces(hovertemplate = '%{label}<br>' + 'Number of tournaments: %{value}', branchvalues='total', marker=dict(line=dict(width=1.5, color='white')))
 
     fig_sunburst = fig_sunburst.update_layout(margin=dict(t=0, l=0, r=0, b=10),
                                                           paper_bgcolor='rgba(0,0,0,0)',
                                                           font_color='#363535',
-                                                            font_family = "'Didot', serif"
+                                                          font_family='Bahnschrift Light',
+                                                          hoverlabel=dict(font_family='Bahnschrift Light')
                                                           )
     
     return fig_bar, fig_scattermap, fig_sunburst
@@ -255,11 +288,12 @@ def update_bar_plot(year, region):
 @app.callback(
     Output('longest_game', 'children'),
     Output('shortest_game', 'children'),
-    Output('most_games_won', 'children'),
+    Output('most_tournaments_won', 'children'),
     Output('most_frequent_matchup', 'children'),
     Output('most_break_points_saved', 'children'),
     Output('most_aces', 'children'),
     Output('radar_chart', 'figure'),
+    Output('radar_legend', 'children'),
 
     Input('scattermap', 'clickData'),
     Input('year_slider', 'value')
@@ -282,7 +316,7 @@ def update_stats_radar(ClickData, year):
     # statistics
     longest_game_str=str(round(all_match_tournament['match_duration'].max(),0))[:-2]
     shortest_game_str=str(round(all_match_tournament['match_duration'].min(),0))[:-2]
-    most_games_won_str=str(tournaments_tournament['singles_winner_name'].value_counts()[0])
+    most_tournaments_won_str=str(tournaments_tournament['singles_winner_name'].value_counts()[0])
     most_frequent_matchup_str=str(all_match_tournament['pair'].value_counts().index[0])
     most_break_points_saved_str=str(round(all_match_tournament['max_break_points_saved'].max(),0))[:-2]
     most_aces_str=str(round(all_match_tournament['max_aces'].max(),0))[:-2]
@@ -329,7 +363,6 @@ def update_stats_radar(ClickData, year):
                                         hoverinfo = 'text',
                                         name = text_scores_winner,
                                         text = [winner_for_text.index[i] + ': ' + str(winner_for_text['score'][i]) for i in range(len(winner_for_text))],
-                                        textfont = dict(family="'Didot', serif")
                         ))
 
     fig_radar.add_trace(go.Scatterpolar(r = loser_for_plot['score'],
@@ -353,8 +386,6 @@ def update_stats_radar(ClickData, year):
                                                            gridcolor = 'black'
                                                            ),
                                         ),
-                            width = 730,
-                            height = 550,
                             margin = dict(l = 80, r = 80, t = 20, b = 20),
                             showlegend = False,
                             template = 'plotly_dark',
@@ -362,10 +393,14 @@ def update_stats_radar(ClickData, year):
                             paper_bgcolor = 'rgba(0, 0, 0, 0)',
                             font_color = 'black',
                             font_size = 15,
-                            font_family="'Didot', serif"
+                            font_family='Bahnschrift Light',
+                            hoverlabel=dict(font_family='Bahnschrift Light')
                             )
+    
+    ############---RADAR LEGEND----##############################################################################################
+    legend='Statistics for the ' + str(year) + ' final match of ' + str(tournament_name) + ', between ' + str(all_match_final['winner_name'].iloc[0]) + ' and ' + str(all_match_final['loser_name'].iloc[0])
 
-    return longest_game_str, shortest_game_str, most_games_won_str, most_frequent_matchup_str, most_break_points_saved_str, most_aces_str, fig_radar
+    return longest_game_str, shortest_game_str, most_tournaments_won_str, most_frequent_matchup_str, most_break_points_saved_str, most_aces_str, fig_radar, legend
 
 
 if __name__ == '__main__':
