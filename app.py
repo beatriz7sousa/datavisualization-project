@@ -6,7 +6,6 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objs as go
 import plotly.express as px
-import json
 
 #Data####################################################################################################################
 
