@@ -402,5 +402,6 @@ def update_stats_radar(ClickData, year):
     return longest_game_str, shortest_game_str, most_tournaments_won_str, most_frequent_matchup_str, most_break_points_saved_str, most_aces_str, fig_radar, legend
 
 
+
 if __name__ == '__main__':
     app.run_server(debug=True)
