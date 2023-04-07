@@ -57,8 +57,6 @@ app.layout = html.Div([
 
     html.Div([
         html.H1('Tennis Statistics'),
-        #html.Img(src=app.get_asset_url('tennis_ball.png'),
-        #         style={'position': 'relative', 'width': '7%', 'right': '-83px', 'top': '-20px'}),
         html.Br(),
         html.Label('With the aim of getting a better understanding of Tennis and its tournaments around the world, this interactive dashboard provides insights into key performance indicators, characteristics of each type of tournament and player statistics.'),
     ], id='1st row for title', className='main_box_style'),
@@ -84,7 +82,7 @@ app.layout = html.Div([
                     dcc.Graph(id='fig_sunburst'),
                 ], id='Sunburst', className='main_box_style'),
 
-            ], id='Left Body'),
+            ], id='Left Body', style={'width': '40%'}),
 
         html.Div([
                 html.Div([
@@ -117,10 +115,10 @@ app.layout = html.Div([
                 ], id='Map', className='main_box_style'),
 
                 html.Div([
-    
+                    
                     html.Div([
                         html.H2('Tournament Facts')
-                    ], id='Title'),
+                    ], id='Title', style={'text-align': 'center'}),
 
                     html.Div([
                         html.Div([
@@ -153,7 +151,7 @@ app.layout = html.Div([
                             html.H4(id='most_aces')
                         ],className='box_stats'),
 
-                    ], id='Facts', style={'display': 'flex'})
+                    ], id='Facts', style={'display': 'flex', 'margin': 'auto'})
 
                 ], id='Facts and title'),
 
@@ -169,7 +167,7 @@ app.layout = html.Div([
                     dcc.Graph(id='radar_chart'),
                 ], id='Radar', className='main_box_style')
 
-            ], id='Right Body'),
+            ], id='Right Body', style={'width': '60%'}),
     ], id='App body', style={'display': 'flex'}),
 
     html.Div([
