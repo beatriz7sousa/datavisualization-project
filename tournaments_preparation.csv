@@ -31,7 +31,7 @@
 29,Masters 1000,ATP Masters 1000 Shanghai,"Shanghai, China",2010,Outdoor,Hard,Andy Murray,Jurgen Melzer,Leander Paes,5250000.0,asia,Shanghai,CN,31.22222,121.45806
 30,ATP 250,Moscow,"Moscow, Russia",2010,Indoor,Hard,Viktor Troicki,Igor Kunitsyn,Dmitry Tursunov,1080500.0,europe,Moscow,RU,55.75222,37.61556
 31,ATP 250,St. Petersburg,"St. Petersburg, Russia",2010,Indoor,Hard,Mikhail Kukushkin,Daniele Bracciali,Potito Starace,750000.0,europe,Saint Petersburg,RU,59.93863,30.31413
-32,ATP Finals,ATP Finals,"London, Great Britain",2010,Indoor,Hard,Roger Federer,Daniel Nestor,Nenad Zimonjic,5070000.0,europe,London,GB,51.50853,-0.12574
+32,ATP Finals,ATP Finals,"London, Great Britain",2010,Indoor,Hard,Roger Federer,Daniel Nestor,Nenad Zimonjic,5070000.0,europe,London,GB,51.50873,-0.12553999999999998
 33,ATP 250,Brisbane,"Brisbane, Australia",2011,Outdoor,Hard,Robin Soderling,Lukas Dlouhy,Paul Hanley,474050.0,oceania,Brisbane,AU,-27.46794,153.02809
 34,ATP 250,Doha,"Doha, Qatar",2011,Outdoor,Hard,Roger Federer,Marc Lopez,Rafael Nadal,1110250.0,asia,Doha,QA,25.28545,51.53096
 35,ATP 250,Chennai,"Chennai, India",2011,Outdoor,Hard,Stan Wawrinka,Mahesh Bhupathi,Leander Paes,450000.0,asia,Chennai,IN,13.08784,80.27847
@@ -64,7 +64,7 @@
 62,Masters 1000,ATP Masters 1000 Shanghai,"Shanghai, China",2011,Outdoor,Hard,Andy Murray,Max Mirnyi,Daniel Nestor,5650000.0,asia,Shanghai,CN,31.22222,121.45806
 63,ATP 250,Moscow,"Moscow, Russia",2011,Indoor,Hard,Janko Tipsarevic,Frantisek Cermak,Filip Polasek,805500.0,europe,Moscow,RU,55.75222,37.61556
 64,ATP 250,St. Petersburg,"St. Petersburg, Russia",2011,Indoor,Hard,Marin Cilic,Colin Fleming,Ross Hutchins,750000.0,europe,Saint Petersburg,RU,59.93863,30.31413
-65,ATP Finals,ATP Finals,"London, Great Britain",2011,Indoor,Hard,Roger Federer,Max Mirnyi,Daniel Nestor,5070000.0,europe,London,GB,51.50853,-0.12574
+65,ATP Finals,ATP Finals,"London, Great Britain",2011,Indoor,Hard,Roger Federer,Max Mirnyi,Daniel Nestor,5070000.0,europe,London,GB,51.50873,-0.12553999999999998
 66,ATP 250,Brisbane,"Brisbane, Australia",2012,Outdoor,Hard,Andy Murray,Max Mirnyi,Daniel Nestor,486000.0,oceania,Brisbane,AU,-27.46794,153.02809
 67,ATP 250,Doha,"Doha, Qatar",2012,Outdoor,Hard,Jo-Wilfried Tsonga,Filip Polasek,Lukas Rosol,1110250.0,asia,Doha,QA,25.28545,51.53096
 68,ATP 250,Chennai,"Chennai, India",2012,Outdoor,Hard,Milos Raonic,Leander Paes,Janko Tipsarevic,450000.0,asia,Chennai,IN,13.08784,80.27847
@@ -96,7 +96,7 @@
 94,ATP 500,Tokyo,"Tokyo, Japan",2012,Outdoor,Hard,Kei Nishikori,Alexander Peya,Bruno Soares,1407065.0,asia,Tokyo,JP,35.6895,139.69171
 95,Masters 1000,ATP Masters 1000 Shanghai,"Shanghai, China",2012,Outdoor,Hard,Novak Djokovic,Leander Paes,Radek Stepanek,5891600.0,asia,Shanghai,CN,31.22222,121.45806
 96,ATP 250,Moscow,"Moscow, Russia",2012,Indoor,Hard,Andreas Seppi,Frantisek Cermak,Michal Mertinak,742150.0,europe,Moscow,RU,55.75222,37.61556
-97,ATP Finals,ATP Finals,"London, Great Britain",2012,Indoor,Hard,Novak Djokovic,Marcel Granollers,Marc Lopez,5500000.0,europe,London,GB,51.50853,-0.12574
+97,ATP Finals,ATP Finals,"London, Great Britain",2012,Indoor,Hard,Novak Djokovic,Marcel Granollers,Marc Lopez,5500000.0,europe,London,GB,51.50873,-0.12553999999999998
 98,ATP 250,Brisbane,"Brisbane, Australia",2013,Outdoor,Hard,Andy Murray,Marcelo Melo,Tommy Robredo,494230.0,oceania,Brisbane,AU,-27.46794,153.02809
 99,ATP 250,Doha,"Doha, Qatar",2013,Outdoor,Hard,Richard Gasquet,Christopher Kas,Philipp Kohlschreiber,1150720.0,asia,Doha,QA,25.28545,51.53096
 100,ATP 250,Chennai,"Chennai, India",2013,Outdoor,Hard,Janko Tipsarevic,Benoit Paire,Stan Wawrinka,442750.0,asia,Chennai,IN,13.08784,80.27847
@@ -128,7 +128,7 @@
 126,ATP 500,Tokyo,"Tokyo, Japan",2013,Outdoor,Hard,Juan Martin del Potro,Rohan Bopanna,Edouard Roger-Vasselin,1437800.0,asia,Tokyo,JP,35.6895,139.69171
 127,Masters 1000,ATP Masters 1000 Shanghai,"Shanghai, China",2013,Outdoor,Hard,Novak Djokovic,Ivan Dodig,Marcelo Melo,6211445.0,asia,Shanghai,CN,31.22222,121.45806
 128,ATP 250,Moscow,"Moscow, Russia",2013,Indoor,Hard,Richard Gasquet,Mikhail Elgin,Denis Istomin,823550.0,europe,Moscow,RU,55.75222,37.61556
-129,ATP Finals,ATP Finals,"London, Great Britain",2013,Indoor,Hard,Novak Djokovic,David Marrero,Fernando Verdasco,6000000.0,europe,London,GB,51.50853,-0.12574
+129,ATP Finals,ATP Finals,"London, Great Britain",2013,Indoor,Hard,Novak Djokovic,David Marrero,Fernando Verdasco,6000000.0,europe,London,GB,51.50873,-0.12553999999999998
 130,ATP 250,Brisbane,"Brisbane, Australia",2014,Outdoor,Hard,Lleyton Hewitt,Mariusz Fyrstenberg,Daniel Nestor,511825.0,oceania,Brisbane,AU,-27.46794,153.02809
 131,ATP 250,Doha,"Doha, Qatar",2014,Outdoor,Hard,Rafael Nadal,Tomas Berdych,Jan Hajek,1195500.0,asia,Doha,QA,25.28545,51.53096
 132,ATP 250,Chennai,"Chennai, India",2014,Outdoor,Hard,Stan Wawrinka,Johan Brunstrom,Frederik Nielsen,459140.0,asia,Chennai,IN,13.08784,80.27847
@@ -160,7 +160,7 @@
 158,ATP 500,Tokyo,"Tokyo, Japan",2014,Outdoor,Hard,Kei Nishikori,Pierre-Hugues Herbert,Michal Przysiezny,1373420.0,asia,Tokyo,JP,35.6895,139.69171
 159,Masters 1000,ATP Masters 1000 Shanghai,"Shanghai, China",2014,Outdoor,Hard,Roger Federer,Bob Bryan,Mike Bryan,6521695.0,asia,Shanghai,CN,31.22222,121.45806
 160,ATP 250,Moscow,"Moscow, Russia",2014,Indoor,Hard,Marin Cilic,Frantisek Cermak,Jiri Vesely,855490.0,europe,Moscow,RU,55.75222,37.61556
-161,ATP Finals,ATP Finals,"London, Great Britain",2014,Indoor,Hard,Novak Djokovic,Bob Bryan,Mike Bryan,6500000.0,europe,London,GB,51.50853,-0.12574
+161,ATP Finals,ATP Finals,"London, Great Britain",2014,Indoor,Hard,Novak Djokovic,Bob Bryan,Mike Bryan,6500000.0,europe,London,GB,51.50873,-0.12553999999999998
 162,ATP 250,Brisbane,"Brisbane, Australia",2015,Outdoor,Hard,Roger Federer,Jamie Murray,John Peers,494310.0,oceania,Brisbane,AU,-27.46794,153.02809
 163,ATP 250,Doha,"Doha, Qatar",2015,Outdoor,Hard,David Ferrer,Juan Monaco,Rafael Nadal,1221320.0,asia,Doha,QA,25.28545,51.53096
 164,ATP 250,Chennai,"Chennai, India",2015,Outdoor,Hard,Stan Wawrinka,Yen-Hsun Lu,Jonathan Marray,458400.0,asia,Chennai,IN,13.08784,80.27847
@@ -192,7 +192,7 @@
 190,ATP 500,Tokyo,"Tokyo, Japan",2015,Outdoor,Hard,Stan Wawrinka,Raven Klaasen,Marcelo Melo,1397250.0,asia,Tokyo,JP,35.6895,139.69171
 191,Masters 1000,ATP Masters 1000 Shanghai,"Shanghai, China",2015,Outdoor,Hard,Novak Djokovic,Raven Klaasen,Marcelo Melo,7021335.0,asia,Shanghai,CN,31.22222,121.45806
 192,ATP 250,Moscow,"Moscow, Russia",2015,Indoor,Hard,Marin Cilic,Andrey Rublev,Dmitry Tursunov,771525.0,europe,Moscow,RU,55.75222,37.61556
-193,ATP Finals,ATP Finals,"London, Great Britain",2015,Indoor,Hard,Novak Djokovic,Jean-Julien Rojer,Horia Tecau,7000000.0,europe,London,GB,51.50853,-0.12574
+193,ATP Finals,ATP Finals,"London, Great Britain",2015,Indoor,Hard,Novak Djokovic,Jean-Julien Rojer,Horia Tecau,7000000.0,europe,London,GB,51.50873,-0.12553999999999998
 194,ATP 250,Doha,"Doha, Qatar",2016,Outdoor,Hard,Novak Djokovic,Feliciano Lopez,Marc Lopez,1283855.0,asia,Doha,QA,25.28545,51.53096
 195,ATP 250,Chennai,"Chennai, India",2016,Outdoor,Hard,Stan Wawrinka,Oliver Marach,Fabrice Martin,482085.0,asia,Chennai,IN,13.08784,80.27847
 196,ATP 250,Brisbane,"Brisbane, Australia",2016,Outdoor,Hard,Milos Raonic,Henri Kontinen,John Peers,461330.0,oceania,Brisbane,AU,-27.46794,153.02809
@@ -224,7 +224,7 @@
 222,ATP 500,Tokyo,"Tokyo, Japan",2016,Outdoor,Hard,Nick Kyrgios,Marcel Granollers,Marcin Matkowski,1506835.0,asia,Tokyo,JP,35.6895,139.69171
 223,Masters 1000,ATP Masters 1000 Shanghai,"Shanghai, China",2016,Outdoor,Hard,Andy Murray,John Isner,Jack Sock,7655640.0,asia,Shanghai,CN,31.22222,121.45806
 224,ATP 250,Moscow,"Moscow, Russia",2016,Indoor,Hard,Pablo Carreno Busta,Juan Sebastian Cabal,Robert Farah,792645.0,europe,Moscow,RU,55.75222,37.61556
-225,ATP Finals,ATP Finals,"London, Great Britain",2016,Indoor,Hard,Andy Murray,Henri Kontinen,John Peers,7500000.0,europe,London,GB,51.50853,-0.12574
+225,ATP Finals,ATP Finals,"London, Great Britain",2016,Indoor,Hard,Andy Murray,Henri Kontinen,John Peers,7500000.0,europe,London,GB,51.50873,-0.12553999999999998
 226,ATP 250,Brisbane,"Brisbane, Australia",2017,Outdoor,Hard,Grigor Dimitrov,Thanasi Kokkinakis,Jordan Thompson,495630.0,oceania,Brisbane,AU,-27.46794,153.02809
 227,ATP 250,Doha,"Doha, Qatar",2017,Outdoor,Hard,Novak Djokovic,Jeremy Chardy,Fabrice Martin,1334270.0,asia,Doha,QA,25.28545,51.53096
 228,ATP 250,Chennai,"Chennai, India",2017,Outdoor,Hard,Roberto Bautista Agut,Rohan Bopanna,Jeevan Nedunchezhiyan,505730.0,asia,Chennai,IN,13.08784,80.27847
@@ -257,14 +257,14 @@
 255,Masters 1000,ATP Masters 1000 Shanghai,"Shanghai, China",2017,Outdoor,Hard,Roger Federer,Henri Kontinen,John Peers,8092625.0,asia,Shanghai,CN,31.22222,121.45806
 256,ATP 250,Moscow,"Moscow, Russia",2017,Indoor,Hard,Damir Dzumhur,Max Mirnyi,Philipp Oswald,823600.0,europe,Moscow,RU,55.75222,37.61556
 257,Next Gen Finals,Next Gen ATP Finals,"Milan, Italy",2017,Indoor,Hard,Hyeon Chung,There is no doubles competition,There is no doubles competition,1275000.0,europe,Milan,IT,45.46427,9.18951
-258,ATP Finals,Nitto ATP Finals,"London, Great Britain",2017,Indoor,Hard,Grigor Dimitrov,Henri Kontinen,John Peers,8000000.0,europe,London,GB,51.50853,-0.12574
+258,ATP Finals,Nitto ATP Finals,"London, Great Britain",2017,Indoor,Hard,Grigor Dimitrov,Henri Kontinen,John Peers,8000000.0,europe,London,GB,51.50873,-0.12553999999999998
 259,ATP 250,Brisbane,"Brisbane, Australia",2018,Outdoor,Hard,Nick Kyrgios,Henri Kontinen,John Peers,528910.0,oceania,Brisbane,AU,-27.46794,153.02809
 260,ATP 250,Doha,"Doha, Qatar",2018,Outdoor,Hard,Gael Monfils,Oliver Marach,Mate Pavic,1386665.0,asia,Doha,QA,25.28545,51.53096
 261,ATP 250,Pune,"Pune, India",2018,Outdoor,Hard,Gilles Simon,Robin Haase,Matwe Middelkoop,561345.0,asia,Pune,IN,18.51957,73.85535
 262,ATP 250,Sydney,"Sydney, Australia",2018,Outdoor,Hard,Daniil Medvedev,Lukasz Kubot,Marcelo Melo,528910.0,oceania,Sydney,AU,-33.86785,151.20732
 263,ATP 250,Auckland,"Auckland, New Zealand",2018,Outdoor,Hard,Roberto Bautista Agut,Oliver Marach,Mate Pavic,561345.0,oceania,Auckland,NZ,-36.84853,174.76349
 264,ATP 250,Quito,"Quito, Ecuador",2018,Outdoor,Clay,Roberto Carballes Baena,Nicolas Jarry,Hans Podlipnik-Castillo,561345.0,south america,Quito,EC,-0.22985,-78.52495
-265,ATP 250,New York,"New York, United States",2018,Indoor,Hard,Kevin Anderson,Max Mirnyi,Philipp Oswald,748450.0,north america,New York City,US,40.71427,-74.00597
+265,ATP 250,New York,"New York, United States",2018,Indoor,Hard,Kevin Anderson,Max Mirnyi,Philipp Oswald,748450.0,north america,New York City,US,40.71437,-74.00587
 266,ATP 250,Buenos Aires,"Buenos Aires, Argentina",2018,Outdoor,Clay,Dominic Thiem,Andres Molteni,Horacio Zeballos,648180.0,south america,Buenos Aires,AR,-34.61315,-58.37723
 267,ATP 500,Rio de Janeiro,"Rio de Janeiro, Brazil",2018,Outdoor,Clay,Diego Schwartzman,David Marrero,Fernando Verdasco,1842475.0,south america,Rio de Janeiro,BR,-22.90642,-43.18223
 268,ATP 250,Delray Beach,"Delray Beach, United States",2018,Outdoor,Hard,Frances Tiafoe,Jack Sock,Jackson Withrow,622675.0,north america,Delray Beach,US,26.46146,-80.07282
@@ -290,14 +290,14 @@
 288,Masters 1000,ATP Masters 1000 Shanghai,"Shanghai, China",2018,Outdoor,Hard,Novak Djokovic,Lukasz Kubot,Marcelo Melo,9219970.0,asia,Shanghai,CN,31.22222,121.45806
 289,ATP 250,Moscow,"Moscow, Russia",2018,Indoor,Hard,Karen Khachanov,Austin Krajicek,Rajeev Ram,936435.0,europe,Moscow,RU,55.75222,37.61556
 290,Next Gen Finals,Next Gen ATP Finals,"Milan, Italy",2018,Indoor,Hard,Stefanos Tsitsipas,There is no doubles competition,There is no doubles competition,1335000.0,europe,Milan,IT,45.46427,9.18951
-291,ATP Finals,Nitto ATP Finals,"London, Great Britain",2018,Indoor,Hard,Alexander Zverev,Mike Bryan,Jack Sock,8500000.0,europe,London,GB,51.50853,-0.12574
+291,ATP Finals,Nitto ATP Finals,"London, Great Britain",2018,Indoor,Hard,Alexander Zverev,Mike Bryan,Jack Sock,8500000.0,europe,London,GB,51.50873,-0.12553999999999998
 292,ATP 250,Doha,"Doha, Qatar",2019,Outdoor,Hard,Roberto Bautista Agut,David Goffin,Pierre-Hugues Herbert,1416205.0,asia,Doha,QA,25.28545,51.53096
 293,ATP 250,Brisbane,"Brisbane, Australia",2019,Outdoor,Hard,Kei Nishikori,Marcus Daniell,Wesley Koolhof,589680.0,oceania,Brisbane,AU,-27.46794,153.02809
 294,ATP 250,Pune,"Pune, India",2019,Outdoor,Hard,Kevin Anderson,Rohan Bopanna,Divij Sharan,589680.0,asia,Pune,IN,18.51957,73.85535
 295,ATP 250,Sydney,"Sydney, Australia",2019,Outdoor,Hard,Alex de Minaur,Jamie Murray,Bruno Soares,589680.0,oceania,Sydney,AU,-33.86785,151.20732
 296,ATP 250,Auckland,"Auckland, New Zealand",2019,Outdoor,Hard,Tennys Sandgren,Ben McLachlan,Jan-Lennard Struff,589680.0,oceania,Auckland,NZ,-36.84853,174.76349
 297,ATP 250,Cordoba,"Cordoba, Argentina",2019,Outdoor,Clay,Juan Ignacio Londero,Roman Jebavy,Andres Molteni,589680.0,south america,Córdoba,AR,-31.4135,-64.18105
-298,ATP 250,New York,"New York, United States",2019,Indoor,Hard,Reilly Opelka,Kevin Krawietz,Andreas Mies,777385.0,north america,New York City,US,40.71427,-74.00597
+298,ATP 250,New York,"New York, United States",2019,Indoor,Hard,Reilly Opelka,Kevin Krawietz,Andreas Mies,777385.0,north america,New York City,US,40.71437,-74.00587
 299,ATP 250,Buenos Aires,"Buenos Aires, Argentina",2019,Outdoor,Clay,Marco Cecchinato,Maximo Gonzalez,Horacio Zeballos,673135.0,south america,Buenos Aires,AR,-34.61315,-58.37723
 300,ATP 500,Rio de Janeiro,"Rio de Janeiro, Brazil",2019,Outdoor,Clay,Laslo Djere,Maximo Gonzalez,Nicolas Jarry,1937740.0,south america,Rio de Janeiro,BR,-22.90642,-43.18223
 301,ATP 250,Delray Beach,"Delray Beach, United States",2019,Outdoor,Hard,Radu Albot,Bob Bryan,Mike Bryan,651215.0,north america,Delray Beach,US,26.46146,-80.07282
@@ -323,7 +323,7 @@
 321,Masters 1000,ATP Masters 1000 Shanghai,"Shanghai, China",2019,Outdoor,Hard,Daniil Medvedev,Mate Pavic,Bruno Soares,8322885.0,asia,Shanghai,CN,31.22222,121.45806
 322,ATP 250,Moscow,"Moscow, Russia",2019,Indoor,Hard,Andrey Rublev,Marcelo Demoliner,Matwe Middelkoop,922520.0,europe,Moscow,RU,55.75222,37.61556
 323,Next Gen Finals,Next Gen ATP Finals,"Milan, Italy",2019,Indoor,Hard,Jannik Sinner,There is no doubles competition,There is no doubles competition,1400000.0,europe,Milan,IT,45.46427,9.18951
-324,ATP Finals,Nitto ATP Finals,"London, Great Britain",2019,Indoor,Hard,Stefanos Tsitsipas,Pierre-Hugues Herbert,Nicolas Mahut,9000000.0,europe,London,GB,51.50853,-0.12574
+324,ATP Finals,Nitto ATP Finals,"London, Great Britain",2019,Indoor,Hard,Stefanos Tsitsipas,Pierre-Hugues Herbert,Nicolas Mahut,9000000.0,europe,London,GB,51.50873,-0.12553999999999998
 325,Grand Slam,Australian Open,Melbourne,2010,Outdoor,Hard,Roger Federer,Bob Bryan,Mike Bryan,7273319.712,oceania,Melbourne,AU,-37.814,144.96332
 326,Grand Slam,Australian Open,"Melbourne, Australia",2011,Outdoor,Hard,Novak Djokovic,Bob Bryan,Mike Bryan,7514461.585,oceania,Melbourne,AU,-37.814,144.96332
 327,Grand Slam,Australian Open,"Melbourne, Australia",2012,Outdoor,Hard,Novak Djokovic,Leander Paes,Radek Stepanek,7772251.865,oceania,Melbourne,AU,-37.814,144.96332
@@ -348,7 +348,7 @@
 346,ATP 250,Nice,"Nice, France",2010,Outdoor,Clay,Richard Gasquet,Marcelo Melo,Bruno Soares,479070.0,europe,Nice,FR,43.70313,7.26608
 347,Grand Slam,Roland Garros,"Paris, France",2010,Outdoor,Clay,Rafael Nadal,Daniel Nestor,Nenad Zimonjic,8070519.68,europe,Paris,FR,48.85341,2.3488
 348,ATP 250,Halle,"Halle, Germany",2010,Outdoor,Grass,Lleyton Hewitt,Sergiy Stakhovsky,Mikhail Youzhny,798450.0,europe,Halle,DE,52.06007,8.36083
-349,ATP 250,London / Queen's Club,"London, Great Britain",2010,Outdoor,Grass,Sam Querrey,Novak Djokovic,Jonathan Erlich,760071.17,europe,London,GB,51.50853,-0.12574
+349,ATP 250,London / Queen's Club,"London, Great Britain",2010,Outdoor,Grass,Sam Querrey,Novak Djokovic,Jonathan Erlich,760071.17,europe,London,GB,51.508630000000004,-0.12564
 350,ATP 250,Eastbourne,"Eastbourne, Great Britain",2010,Outdoor,Grass,Michael Llodra,Mariusz Fyrstenberg,Marcin Matkowski,486256.05,europe,Eastbourne,GB,50.76871,0.28453
 351,ATP 250,s-Hertogenbosch,"s-Hertogenbosch, Netherlands",2010,Outdoor,Grass,Sergiy Stakhovsky,Robert Lindstedt,Horia Tecau,479070.0,europe,'s-Hertogenbosch,NL,51.69917,5.30417
 352,ATP 250,Bastad,"Bastad, Sweden",2010,Outdoor,Clay,Nicolas Almagro,Robert Lindstedt,Horia Tecau,479070.0,europe,Båstad,SE,56.42689,12.85339
@@ -363,7 +363,7 @@
 361,ATP 250,Vienna,"Vienna, Austria",2010,Indoor,Hard,Jurgen Melzer,Daniel Nestor,Nenad Zimonjic,691990.0,europe,Vienna,AT,48.20849,16.37208
 362,ATP 500,Valencia,"Valencia, Switzerland",2010,Indoor,Hard,David Ferrer,Andy Murray,Jamie Murray,2149427.4,europe,Valencia,ES,39.46975,-0.37739
 363,ATP 500,Basel,"Basel, Switzerland",2010,Indoor,Hard,Roger Federer,Bob Bryan,Mike Bryan,1868373.0,europe,Basel,CH,47.55839,7.57327
-364,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2010,Indoor,Hard,Robin Soderling,Mahesh Bhupathi,Max Mirnyi,2927650.0,europe,Paris,FR,48.85341,2.3488
+364,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2010,Indoor,Hard,Robin Soderling,Mahesh Bhupathi,Max Mirnyi,2927650.0,europe,Paris,FR,48.85351,2.3489000000000004
 365,ATP 250,Zagreb,"Zagreb, Croatia",2011,Indoor,Hard,Ivan Dodig,Dick Norman,Horia Tecau,479070.0,europe,Zagreb,HR,45.81444,15.97798
 366,ATP 500,Rotterdam,"Rotterdam, Netherlands",2011,Indoor,Hard,Robin Soderling,Jurgen Melzer,Philipp Petzschner,1538347.0,europe,Rotterdam,NL,51.9225,4.47917
 367,ATP 250,Marseille,"Marseille, France",2011,Indoor,Hard,Robin Soderling,Robin Haase,Ken Skupski,613209.6,europe,Marseille,FR,43.29695,5.38107
@@ -378,7 +378,7 @@
 376,ATP 250,Nice,"Nice, France",2011,Outdoor,Clay,Nicolas Almagro,Eric Butorac,Jean-Julien Rojer,479070.0,europe,Nice,FR,43.70313,7.26608
 377,Grand Slam,Roland Garros,"Paris, France",2011,Outdoor,Clay,Rafael Nadal,Max Mirnyi,Daniel Nestor,8393306.4,europe,Paris,FR,48.85341,2.3488
 378,ATP 250,Halle,"Halle, Germany",2011,Outdoor,Grass,Philipp Kohlschreiber,Rohan Bopanna,Aisam-Ul-Haq Qureshi,798450.0,europe,Halle,DE,52.06007,8.36083
-379,ATP 250,London / Queen's Club,"London, Great Britain",2011,Outdoor,Grass,Andy Murray,Bob Bryan,Mike Bryan,739098.55,europe,London,GB,51.50853,-0.12574
+379,ATP 250,London / Queen's Club,"London, Great Britain",2011,Outdoor,Grass,Andy Murray,Bob Bryan,Mike Bryan,739098.55,europe,London,GB,51.508630000000004,-0.12564
 380,ATP 250,Eastbourne,"Eastbourne, Great Britain",2011,Outdoor,Grass,Andreas Seppi,Jonathan Erlich,Andy Ram,492563.805,europe,Eastbourne,GB,50.76871,0.28453
 381,ATP 250,s-Hertogenbosch,"s-Hertogenbosch, Netherlands",2011,Outdoor,Grass,Dmitry Tursunov,Daniele Bracciali,Frantisek Cermak,479070.0,europe,'s-Hertogenbosch,NL,51.69917,5.30417
 382,ATP 250,Bastad,"Bastad, Sweden",2011,Outdoor,Clay,Robin Soderling,Robert Lindstedt,Horia Tecau,479070.0,europe,Båstad,SE,56.42689,12.85339
@@ -393,7 +393,7 @@
 391,ATP 250,Vienna,"Vienna, Austria",2011,Indoor,Hard,Jo-Wilfried Tsonga,Bob Bryan,Mike Bryan,691990.0,europe,Vienna,AT,48.20849,16.37208
 392,ATP 500,Valencia,"Valencia, Spain",2011,Indoor,Hard,Marcel Granollers,Bob Bryan,Mike Bryan,2149427.4,europe,Valencia,ES,39.46975,-0.37739
 393,ATP 500,Basel,"Basel, Switzerland",2011,Indoor,Hard,Roger Federer,Michael Llodra,Nenad Zimonjic,1956841.26,europe,Basel,CH,47.55839,7.57327
-394,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2011,Indoor,Hard,Roger Federer,Rohan Bopanna,Aisam-Ul-Haq Qureshi,2927650.0,europe,Paris,FR,48.85341,2.3488
+394,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2011,Indoor,Hard,Roger Federer,Rohan Bopanna,Aisam-Ul-Haq Qureshi,2927650.0,europe,Paris,FR,48.85351,2.3489000000000004
 395,ATP 250,Montpellier,"Montpellier, France",2012,Indoor,Hard,Tomas Berdych,Nicolas Mahut,Edouard Roger-Vasselin,479070.0,europe,Montpellier,FR,43.61092,3.87723
 396,ATP 250,Zagreb,"Zagreb, Croatia",2012,Indoor,Hard,Mikhail Youzhny,Marcos Baghdatis,Mikhail Youzhny,479070.0,europe,Zagreb,HR,45.81444,15.97798
 397,ATP 500,Rotterdam,"Rotterdam, Netherlands",2012,Indoor,Hard,Roger Federer,Michael Llodra,Nenad Zimonjic,1599561.5,europe,Rotterdam,NL,51.9225,4.47917
@@ -410,7 +410,7 @@
 408,ATP 250,Nice,"Nice, France",2012,Outdoor,Clay,Nicolas Almagro,Bob Bryan,Mike Bryan,479070.0,europe,Nice,FR,43.70313,7.26608
 409,Grand Slam,Roland Garros,"Paris, France",2012,Outdoor,Clay,Rafael Nadal,Max Mirnyi,Daniel Nestor,9035260.2,europe,Paris,FR,48.85341,2.3488
 410,ATP 250,Halle,"Halle, Germany",2012,Outdoor,Grass,Tommy Haas,Aisam-Ul-Haq Qureshi,Jean-Julien Rojer,798450.0,europe,Halle,DE,52.06007,8.36083
-411,ATP 250,London / Queen's Club,"London, Great Britain",2012,Outdoor,Grass,Marin Cilic,Max Mirnyi,Daniel Nestor,757516.13,europe,London,GB,51.50853,-0.12574
+411,ATP 250,London / Queen's Club,"London, Great Britain",2012,Outdoor,Grass,Marin Cilic,Max Mirnyi,Daniel Nestor,757516.13,europe,London,GB,51.508630000000004,-0.12564
 412,ATP 250,s-Hertogenbosch,"s-Hertogenbosch, Netherlands",2012,Outdoor,Grass,David Ferrer,Robert Lindstedt,Horia Tecau,479070.0,europe,'s-Hertogenbosch,NL,51.69917,5.30417
 413,ATP 250,Eastbourne,"Eastbourne, Great Britain",2012,Outdoor,Grass,Andy Roddick,Colin Fleming,Ross Hutchins,485138.22,europe,Eastbourne,GB,50.76871,0.28453
 414,ATP 250,Bastad,"B†stad, Sweden",2012,Outdoor,Clay,David Ferrer,Robert Lindstedt,Horia Tecau,436672.305,europe,Båstad,SE,56.42689,12.85339
@@ -424,7 +424,7 @@
 422,ATP 250,Vienna,"Vienna, Austria",2012,Indoor,Hard,Juan Martin del Potro,Andre Begemann,Martin Emmrich,585530.0,europe,Vienna,AT,48.20849,16.37208
 423,ATP 500,Valencia,"Valencia, Spain",2012,Indoor,Hard,David Ferrer,Alexander Peya,Bruno Soares,2221660.51,europe,Valencia,ES,39.46975,-0.37739
 424,ATP 500,Basel,"Basel, Switzerland",2012,Indoor,Hard,Juan Martin del Potro,Daniel Nestor,Nenad Zimonjic,2059255.78,europe,Basel,CH,47.55839,7.57327
-425,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2012,Indoor,Hard,David Ferrer,Mahesh Bhupathi,Rohan Bopanna,3141075.685,europe,Paris,FR,48.85341,2.3488
+425,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2012,Indoor,Hard,David Ferrer,Mahesh Bhupathi,Rohan Bopanna,3141075.685,europe,Paris,FR,48.85351,2.3489000000000004
 426,ATP 250,Montpellier,"Montpellier, France",2013,Indoor,Hard,Richard Gasquet,Marc Gicquel,Michael Llodra,498019.88,europe,Montpellier,FR,43.61092,3.87723
 427,ATP 250,Zagreb,"Zagreb, Croatia",2013,Indoor,Hard,Marin Cilic,Julian Knowle,Filip Polasek,498019.88,europe,Zagreb,HR,45.81444,15.97798
 428,ATP 500,Rotterdam,"Rotterdam, Netherlands",2013,Indoor,Hard,Juan Martin del Potro,Robert Lindstedt,Nenad Zimonjic,1677676.525,europe,Rotterdam,NL,51.9225,4.47917
@@ -441,7 +441,7 @@
 439,ATP 250,Nice,"Nice, France",2013,Outdoor,Clay,Albert Montanes,Johan Brunstrom,Raven Klaasen,498019.88,europe,Nice,FR,43.70313,7.26608
 440,Grand Slam,Roland Garros,"Paris, France",2013,Outdoor,Clay,Rafael Nadal,Bob Bryan,Mike Bryan,10756718.4,europe,Paris,FR,48.85341,2.3488
 441,ATP 250,Halle,"Halle, Germany",2013,Outdoor,Grass,Roger Federer,Santiago Gonzalez,Scott Lipsky,830031.3589999999,europe,Halle,DE,52.06007,8.36083
-442,ATP 250,London / Queen's Club,"London, Great Britain",2013,Outdoor,Grass,Andy Murray,Bob Bryan,Mike Bryan,830031.3589999999,europe,London,GB,51.50853,-0.12574
+442,ATP 250,London / Queen's Club,"London, Great Britain",2013,Outdoor,Grass,Andy Murray,Bob Bryan,Mike Bryan,830031.3589999999,europe,London,GB,51.508630000000004,-0.12564
 443,ATP 250,s-Hertogenbosch,"s-Hertogenbosch, Netherlands",2013,Outdoor,Grass,Nicolas Mahut,Max Mirnyi,Horia Tecau,498019.88,europe,'s-Hertogenbosch,NL,51.69917,5.30417
 444,ATP 250,Eastbourne,"Eastbourne, Great Britain",2013,Outdoor,Grass,Feliciano Lopez,Alexander Peya,Bruno Soares,560043.476,europe,Eastbourne,GB,50.76871,0.28453
 445,ATP 250,Bastad,"Bastad, Sweden",2013,Outdoor,Clay,Carlos Berlocq,Nicholas Monroe,Simon Stadler,523112.502,europe,Båstad,SE,56.42689,12.85339
@@ -455,7 +455,7 @@
 453,ATP 250,Vienna,"Vienna, Austria",2013,Indoor,Hard,Tommy Haas,Florin Mergea,Lukas Rosol,608690.373,europe,Vienna,AT,48.20849,16.37208
 454,ATP 500,Valencia,"Valencia, Spain",2013,Indoor,Hard,Mikhail Youzhny,Alexander Peya,Bruno Soares,2311347.737,europe,Valencia,ES,39.46975,-0.37739
 455,ATP 500,Basel,"Basel, Switzerland",2013,Indoor,Hard,Juan Martin del Potro,Treat Huey,Dominic Inglot,2117313.741,europe,Basel,CH,47.55839,7.57327
-456,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2013,Indoor,Hard,Novak Djokovic,Bob Bryan,Mike Bryan,3411771.527,europe,Paris,FR,48.85341,2.3488
+456,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2013,Indoor,Hard,Novak Djokovic,Bob Bryan,Mike Bryan,3411771.527,europe,Paris,FR,48.85351,2.3489000000000004
 457,ATP 250,Montpellier,"Montpellier, France",2014,Indoor,Hard,Gael Monfils,Nikolay Davydenko,Denis Istomin,517140.096,europe,Montpellier,FR,43.61092,3.87723
 458,ATP 250,Zagreb,"Zagreb, Croatia",2014,Indoor,Hard,Marin Cilic,Jean-Julien Rojer,Horia Tecau,517140.096,europe,Zagreb,HR,45.81444,15.97798
 459,ATP 500,Rotterdam,"Rotterdam, Netherlands",2014,Indoor,Hard,Tomas Berdych,Michael Llodra,Nicolas Mahut,1597703.773,europe,Rotterdam,NL,51.9225,4.47917
@@ -472,7 +472,7 @@
 470,ATP 250,Nice,"Nice, France",2014,Outdoor,Clay,Ernests Gulbis,Martin Klizan,Philipp Oswald,517140.096,europe,Nice,FR,43.70313,7.26608
 471,Grand Slam,Roland Garros,"Paris, France",2014,Outdoor,Clay,Rafael Nadal,Julien Benneteau,Edouard Roger-Vasselin,12298259.2,europe,Paris,FR,48.85341,2.3488
 472,ATP 250,Halle,"Halle, Germany",2014,Outdoor,Grass,Roger Federer,Andre Begemann,Julian Knowle,861900.16,europe,Halle,DE,52.06007,8.36083
-473,ATP 250,London / Queen's Club,"London, Great Britain",2014,Outdoor,Grass,Grigor Dimitrov,Alexander Peya,Bruno Soares,861900.16,europe,London,GB,51.50853,-0.12574
+473,ATP 250,London / Queen's Club,"London, Great Britain",2014,Outdoor,Grass,Grigor Dimitrov,Alexander Peya,Bruno Soares,861900.16,europe,London,GB,51.508630000000004,-0.12564
 474,ATP 250,s-Hertogenbosch,"s-Hertogenbosch, Netherlands",2014,Outdoor,Grass,Roberto Bautista Agut,Jean-Julien Rojer,Horia Tecau,517140.096,europe,'s-Hertogenbosch,NL,51.69917,5.30417
 475,ATP 250,Eastbourne,"Eastbourne, Great Britain",2014,Outdoor,Grass,Feliciano Lopez,Treat Huey,Dominic Inglot,598667.164,europe,Eastbourne,GB,50.76871,0.28453
 476,ATP 250,Bastad,"Bastad, Sweden",2014,Outdoor,Clay,Pablo Cuevas,Johan Brunstrom,Nicholas Monroe,517140.096,europe,Båstad,SE,56.42689,12.85339
@@ -486,7 +486,7 @@
 484,ATP 250,Vienna,"Vienna, Austria",2014,Indoor,Hard,Andy Murray,Jurgen Melzer,Philipp Petzschner,632058.343,europe,Vienna,AT,48.20849,16.37208
 485,ATP 500,Valencia,"Valencia, Spain",2014,Indoor,Hard,Andy Murray,Jean-Julien Rojer,Horia Tecau,2346623.258,europe,Valencia,ES,39.46975,-0.37739
 486,ATP 500,Basel,"Basel, Switzerland",2014,Indoor,Hard,Roger Federer,Vasek Pospisil,Nenad Zimonjic,2038772.876,europe,Basel,CH,47.55839,7.57327
-487,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2014,Indoor,Hard,Novak Djokovic,Bob Bryan,Mike Bryan,3675441.009,europe,Paris,FR,48.85341,2.3488
+487,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2014,Indoor,Hard,Novak Djokovic,Bob Bryan,Mike Bryan,3675441.009,europe,Paris,FR,48.85351,2.3489000000000004
 488,ATP 250,Montpellier,"Montpellier, France",2015,Indoor,Hard,Richard Gasquet,Marcus Daniell,Artem Sitak,526242.426,europe,Montpellier,FR,43.61092,3.87723
 489,ATP 250,Zagreb,"Zagreb, Croatia",2015,Indoor,Hard,Guillermo Garcia-Lopez,Marin Draganja,Henri Kontinen,526242.426,europe,Zagreb,HR,45.81444,15.97798
 490,ATP 500,Rotterdam,"Rotterdam, Netherlands",2015,Indoor,Hard,Stan Wawrinka,Jean-Julien Rojer,Horia Tecau,1704270.233,europe,Rotterdam,NL,51.9225,4.47917
@@ -506,7 +506,7 @@
 504,ATP 250,Stuttgart,"Stuttgart, Germany",2015,Outdoor,Grass,Rafael Nadal,Rohan Bopanna,Florin Mergea,683547.722,europe,Stuttgart,DE,48.78232,9.17702
 505,ATP 250,s-Hertogenbosch,"s-Hertogenbosch, Netherlands",2015,Outdoor,Grass,Nicolas Mahut,Ivo Karlovic,Lukasz Kubot,643183.413,europe,'s-Hertogenbosch,NL,51.69917,5.30417
 506,ATP 500,Halle,"Halle, Germany",2015,Outdoor,Grass,Roger Federer,Raven Klaasen,Rajeev Ram,1806248.267,europe,Halle,DE,52.06007,8.36083
-507,ATP 500,London / Queen's Club,"London, Great Britain",2015,Outdoor,Grass,Andy Murray,Pierre-Hugues Herbert,Nicolas Mahut,1806248.267,europe,London,GB,51.50853,-0.12574
+507,ATP 500,London / Queen's Club,"London, Great Britain",2015,Outdoor,Grass,Andy Murray,Pierre-Hugues Herbert,Nicolas Mahut,1806248.267,europe,London,GB,51.508630000000004,-0.12564
 508,ATP 250,Nottingham,"Nottingham, Great Britain",2015,Outdoor,Grass,Denis Istomin,Chris Guccione,Andre Sa,685671.599,europe,Nottingham,GB,52.9536,-1.15047
 509,ATP 250,Bastad,"Bastad, Sweden",2015,Outdoor,Clay,Benoit Paire,Jeremy Chardy,Lukasz Kubot,526242.426,europe,Båstad,SE,56.42689,12.85339
 510,ATP 250,Umag,"Umag, Croatia",2015,Outdoor,Clay,Dominic Thiem,Maximo Gonzalez,Andre Sa,526242.426,europe,Umag,HR,45.43139,13.52389
@@ -518,7 +518,7 @@
 516,ATP 250,Stockholm,"Stockholm, Sweden",2015,Indoor,Hard,Tomas Berdych,Nicholas Monroe,Jack Sock,643183.413,europe,Stockholm,SE,59.33258,18.0649
 517,ATP 500,Basel,"Basel, Switzerland",2015,Indoor,Hard,Roger Federer,Alexander Peya,Bruno Soares,2152940.58,europe,Basel,CH,47.55839,7.57327
 518,ATP 250,Valencia,"Valencia, Spain",2015,Indoor,Hard,Joao Sousa,Eric Butorac,Scott Lipsky,643183.413,europe,Valencia,ES,39.46975,-0.37739
-519,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2015,Indoor,Hard,Novak Djokovic,Ivan Dodig,Marcelo Melo,4077732.057,europe,Paris,FR,48.85341,2.3488
+519,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2015,Indoor,Hard,Novak Djokovic,Ivan Dodig,Marcelo Melo,4077732.057,europe,Paris,FR,48.85351,2.3489000000000004
 520,ATP 250,Montpellier,"Montpellier, France",2016,Indoor,Hard,Richard Gasquet,Mate Pavic,Michael Venus,553666.522,europe,Montpellier,FR,43.61092,3.87723
 521,ATP 250,Sofia,"Sofia, Bulgaria",2016,Indoor,Hard,Roberto Bautista Agut,Wesley Koolhof,Matwe Middelkoop,553666.522,europe,Sofia,BG,42.69751,23.32415
 522,ATP 500,Rotterdam,"Rotterdam, Netherlands",2016,Indoor,Hard,Martin Klizan,Nicolas Mahut,Vasek Pospisil,1834114.172,europe,Rotterdam,NL,51.9225,4.47917
@@ -537,7 +537,7 @@
 535,Grand Slam,Roland Garros,"Paris, France",2016,Outdoor,Clay,Novak Djokovic,Feliciano Lopez,Marc Lopez,17042915.25,europe,Paris,FR,48.85341,2.3488
 536,ATP 250,Stuttgart,"Stuttgart, Germany",2016,Outdoor,Grass,Dominic Thiem,Marcus Daniell,Artem Sitak,719291.667,europe,Stuttgart,DE,48.78232,9.17702
 537,ATP 250,s-Hertogenbosch,"s-Hertogenbosch, Netherlands",2016,Outdoor,Grass,Nicolas Mahut,Mate Pavic,Michael Venus,676707.667,europe,'s-Hertogenbosch,NL,51.69917,5.30417
-538,ATP 500,London / Queen's Club,"London, Great Britain",2016,Outdoor,Grass,Andy Murray,Pierre-Hugues Herbert,Nicolas Mahut,2053198.206,europe,London,GB,51.50853,-0.12574
+538,ATP 500,London / Queen's Club,"London, Great Britain",2016,Outdoor,Grass,Andy Murray,Pierre-Hugues Herbert,Nicolas Mahut,2053198.206,europe,London,GB,51.508630000000004,-0.12564
 539,ATP 500,Halle,"Halle, Germany",2016,Outdoor,Grass,Florian Mayer,Raven Klaasen,Rajeev Ram,1944252.365,europe,Halle,DE,52.06007,8.36083
 540,ATP 250,Nottingham,"Nottingham, Great Britain",2016,Outdoor,Grass,Steve Johnson,Dominic Inglot,Daniel Nestor,750335.403,europe,Nottingham,GB,52.9536,-1.15047
 541,ATP 500,Hamburg,"Hamburg, Germany",2016,Outdoor,Clay,Martin Klizan,Henri Kontinen,John Peers,1612331.377,europe,Hamburg,DE,53.57532,10.01534
@@ -550,7 +550,7 @@
 548,ATP 250,Stockholm,"Stockholm, Sweden",2016,Indoor,Hard,Juan Martin del Potro,Elias Ymer,Mikael Ymer,676707.667,europe,Stockholm,SE,59.33258,18.0649
 549,ATP 500,Vienna,"Vienna, Austria",2016,Indoor,Hard,Andy Murray,Lukasz Kubot,Marcelo Melo,2626698.226,europe,Vienna,AT,48.20849,16.37208
 550,ATP 500,Basel,"Basel, Switzerland",2016,Indoor,Hard,Marin Cilic,Marcel Granollers,Jack Sock,2291003.231,europe,Basel,CH,47.55839,7.57327
-551,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2016,Indoor,Hard,Andy Murray,Henri Kontinen,John Peers,4578583.773,europe,Paris,FR,48.85341,2.3488
+551,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2016,Indoor,Hard,Andy Murray,Henri Kontinen,John Peers,4578583.773,europe,Paris,FR,48.85351,2.3489000000000004
 552,ATP 250,Montpellier,"Montpellier, France",2017,Indoor,Hard,Alexander Zverev,Mischa Zverev,Alexander Zverev,575214.026,europe,Montpellier,FR,43.61092,3.87723
 553,ATP 250,Sofia,"Sofia, Bulgaria",2017,Indoor,Hard,Grigor Dimitrov,Viktor Troicki,Nenad Zimonjic,575214.026,europe,Sofia,BG,42.69751,23.32415
 554,ATP 500,Rotterdam,"Rotterdam, Netherlands",2017,Indoor,Hard,Jo-Wilfried Tsonga,Ivan Dodig,Marcel Granollers,1974156.979,europe,Rotterdam,NL,51.9225,4.47917
@@ -570,7 +570,7 @@
 568,ATP 250,Stuttgart,"Stuttgart, Germany",2017,Outdoor,Grass,Lucas Pouille,Jamie Murray,Bruno Soares,747322.585,europe,Stuttgart,DE,48.78232,9.17702
 569,ATP 250,s-Hertogenbosch,"s-Hertogenbosch, Netherlands",2017,Outdoor,Grass,Gilles Muller,Lukasz Kubot,Marcelo Melo,703035.225,europe,'s-Hertogenbosch,NL,51.69917,5.30417
 570,ATP 500,Halle,"Halle, Germany",2017,Outdoor,Grass,Roger Federer,Lukasz Kubot,Marcelo Melo,2093104.737,europe,Halle,DE,52.06007,8.36083
-571,ATP 500,London / Queen's Club,"London, Great Britain",2017,Outdoor,Grass,Feliciano Lopez,Jamie Murray,Bruno Soares,2093104.737,europe,London,GB,51.50853,-0.12574
+571,ATP 500,London / Queen's Club,"London, Great Britain",2017,Outdoor,Grass,Feliciano Lopez,Jamie Murray,Bruno Soares,2093104.737,europe,London,GB,51.508630000000004,-0.12564
 572,ATP 250,Antalya,"Antalya, Turkey",2017,Outdoor,Grass,Yuichi Sugita,Robert Lindstedt,Aisam-Ul-Haq Qureshi,529377.673,europe,Antalya,TR,36.90812,30.69556
 573,ATP 250,Eastbourne,"Eastbourne, Great Britain",2017,Outdoor,Grass,Novak Djokovic,Bob Bryan,Mike Bryan,738736.586,europe,Eastbourne,GB,50.76871,0.28453
 574,ATP 250,Bastad,"Bastad, Sweden",2017,Outdoor,Clay,David Ferrer,Julian Knowle,Philipp Petzschner,575214.026,europe,Båstad,SE,56.42689,12.85339
@@ -583,7 +583,7 @@
 581,ATP 250,Stockholm,"Stockholm, Sweden",2017,Indoor,Hard,Juan Martin del Potro,Oliver Marach,Mate Pavic,703035.225,europe,Stockholm,SE,59.33258,18.0649
 582,ATP 500,Vienna,"Vienna, Austria",2017,Indoor,Hard,Lucas Pouille,Rohan Bopanna,Pablo Cuevas,2791221.51,europe,Vienna,AT,48.20849,16.37208
 583,ATP 500,Basel,"Basel, Switzerland",2017,Indoor,Hard,Roger Federer,Ivan Dodig,Marcel Granollers,2439914.156,europe,Basel,CH,47.55839,7.57327
-584,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2017,Indoor,Hard,Jack Sock,Lukasz Kubot,Marcelo Melo,5148378.985,europe,Paris,FR,48.85341,2.3488
+584,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2017,Indoor,Hard,Jack Sock,Lukasz Kubot,Marcelo Melo,5148378.985,europe,Paris,FR,48.85351,2.3489000000000004
 585,ATP 250,Montpellier,"Montpellier, France",2018,Indoor,Hard,Lucas Pouille,Ken Skupski,Neal Skupski,597607.887,europe,Montpellier,FR,43.61092,3.87723
 586,ATP 250,Sofia,"Sofia, Bulgaria",2018,Indoor,Hard,Mirza Basic,Robin Haase,Matwe Middelkoop,597607.887,europe,Sofia,BG,42.69751,23.32415
 587,ATP 500,Rotterdam,"Rotterdam, Netherlands",2018,Indoor,Hard,Roger Federer,Pierre-Hugues Herbert,Nicolas Mahut,2125202.427,europe,Rotterdam,NL,51.9225,4.47917
@@ -603,7 +603,7 @@
 601,ATP 250,Stuttgart,"Stuttgart, Germany",2018,Outdoor,Grass,Roger Federer,Philipp Petzschner,Tim Puetz,776455.364,europe,Stuttgart,DE,48.78232,9.17702
 602,ATP 250,s-Hertogenbosch,"s-Hertogenbosch, Netherlands",2018,Outdoor,Grass,Richard Gasquet,Dominic Inglot,Franko Skugor,730400.768,europe,'s-Hertogenbosch,NL,51.69917,5.30417
 603,ATP 500,Halle,"Halle, Germany",2018,Outdoor,Grass,Borna Coric,Lukasz Kubot,Marcelo Melo,2253667.709,europe,Halle,DE,52.06007,8.36083
-604,ATP 500,London / Queen's Club,"London, Great Britain",2018,Outdoor,Grass,Marin Cilic,Henri Kontinen,John Peers,2253667.709,europe,London,GB,51.50853,-0.12574
+604,ATP 500,London / Queen's Club,"London, Great Britain",2018,Outdoor,Grass,Marin Cilic,Henri Kontinen,John Peers,2253667.709,europe,London,GB,51.508630000000004,-0.12564
 605,ATP 250,Antalya,"Antalya, Turkey",2018,Outdoor,Grass,Damir Dzumhur,Marcelo Demoliner,Santiago Gonzalez,517549.967,europe,Antalya,TR,36.90812,30.69556
 606,ATP 250,Eastbourne,"Eastbourne, Great Britain",2018,Outdoor,Grass,Mischa Zverev,Luke Bambridge,Jonny O'Mara,767667.091,europe,Eastbourne,GB,50.76871,0.28453
 607,ATP 250,Bastad,"Bastad, Sweden",2018,Outdoor,Clay,Fabio Fognini,Julio Peralta,Horacio Zeballos,597607.887,europe,Båstad,SE,56.42689,12.85339
@@ -616,7 +616,7 @@
 614,ATP 250,Stockholm,"Stockholm, Sweden",2018,Indoor,Hard,Stefanos Tsitsipas,Luke Bambridge,Jonny O'Mara,730400.768,europe,Stockholm,SE,59.33258,18.0649
 615,ATP 500,Vienna,"Vienna, Austria",2018,Indoor,Hard,Kevin Anderson,Neal Skupski,Joe Salisbury,2968711.622,europe,Vienna,AT,48.20849,16.37208
 616,ATP 500,Basel,"Basel, Switzerland",2018,Indoor,Hard,Roger Federer,Dominic Inglot,Franko Skugor,2600541.004,europe,Basel,CH,47.55839,7.57327
-617,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2018,Indoor,Hard,Karen Khachanov,Marcel Granollers,Rajeev Ram,5796731.0309999995,europe,Paris,FR,48.85341,2.3488
+617,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2018,Indoor,Hard,Karen Khachanov,Marcel Granollers,Rajeev Ram,5796731.0309999995,europe,Paris,FR,48.85351,2.3489000000000004
 618,ATP 250,Montpellier,"Montpellier, France",2019,Indoor,Hard,Jo-Wilfried Tsonga,Ivan Dodig,Edouard Roger-Vasselin,624004.644,europe,Montpellier,FR,43.61092,3.87723
 619,ATP 250,Sofia,"Sofia, Bulgaria",2019,Indoor,Hard,Daniil Medvedev,Jurgen Melzer,Nikola Mektic,624004.644,europe,Sofia,BG,42.69751,23.32415
 620,ATP 500,Rotterdam,"Rotterdam, Netherlands",2019,Indoor,Hard,Gael Monfils,Jeremy Chardy,Henri Kontinen,2234041.808,europe,Rotterdam,NL,51.9225,4.47917
@@ -635,7 +635,7 @@
 633,ATP 250,Stuttgart,"Stuttgart, Germany",2019,Outdoor,Grass,Matteo Berrettini,John Peers,Bruno Soares,803283.284,europe,Stuttgart,DE,48.78232,9.17702
 634,ATP 250,s-Hertogenbosch,"s-Hertogenbosch, Netherlands",2019,Outdoor,Grass,Adrian Mannarino,Dominic Inglot,Austin Krajicek,757223.365,europe,'s-Hertogenbosch,NL,51.69917,5.30417
 635,ATP 500,Halle,"Halle, Germany",2019,Outdoor,Grass,Roger Federer,Raven Klaasen,Michael Venus,2362507.09,europe,Halle,DE,52.06007,8.36083
-636,ATP 500,London / Queen's Club,"London, Great Britain",2019,Outdoor,Grass,Feliciano Lopez,Feliciano Lopez,Andy Murray,2362507.09,europe,London,GB,51.50853,-0.12574
+636,ATP 500,London / Queen's Club,"London, Great Britain",2019,Outdoor,Grass,Feliciano Lopez,Feliciano Lopez,Andy Murray,2362507.09,europe,London,GB,51.508630000000004,-0.12564
 637,ATP 250,Antalya,"Antalya, Turkey",2019,Outdoor,Grass,Lorenzo Sonego,Jonathan Erlich,Artem Sitak,540273.854,europe,Antalya,TR,36.90812,30.69556
 638,ATP 250,Eastbourne,"Eastbourne, Great Britain",2019,Outdoor,Grass,Taylor Fritz,Juan Sebastian Cabal,Robert Farah,794063.848,europe,Eastbourne,GB,50.76871,0.28453
 639,ATP 250,Bastad,"Bastad, Sweden",2019,Outdoor,Clay,Nicolas Jarry,Sander Gille,Joran Vliegen,624004.644,europe,Båstad,SE,56.42689,12.85339
@@ -648,7 +648,7 @@
 646,ATP 250,Stockholm,"Stockholm, Sweden",2019,Indoor,Hard,Denis Shapovalov,Henri Kontinen,Edouard Roger-Vasselin,757223.365,europe,Stockholm,SE,59.33258,18.0649
 647,ATP 500,Vienna,"Vienna, Austria",2019,Indoor,Hard,Dominic Thiem,Rajeev Ram,Joe Salisbury,2591034.126,europe,Vienna,AT,48.20849,16.37208
 648,ATP 500,Basel,"Basel, Switzerland",2019,Indoor,Hard,Roger Federer,Jean-Julien Rojer,Horia Tecau,2363385.385,europe,Basel,CH,47.55839,7.57327
-649,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2019,Indoor,Hard,Novak Djokovic,Pierre-Hugues Herbert,Nicolas Mahut,6165396.688,europe,Paris,FR,48.85341,2.3488
+649,Masters 1000,ATP Masters 1000 Paris,"Paris, France",2019,Indoor,Hard,Novak Djokovic,Pierre-Hugues Herbert,Nicolas Mahut,6165396.688,europe,Paris,FR,48.85351,2.3489000000000004
 650,Grand Slam,Wimbledon,"London, Great Britain",2010,Outdoor,Grass,Rafael Nadal,Jurgen Melzer,Philipp Petzschner,7456266.4,europe,London,GB,51.50853,-0.12574
 651,Grand Slam,Wimbledon,"London, Great Britain",2011,Outdoor,Grass,Novak Djokovic,Bob Bryan,Mike Bryan,7979745.4,europe,London,GB,51.50853,-0.12574
 652,Grand Slam,Wimbledon,"London, Great Britain",2012,Outdoor,Grass,Roger Federer,Jonathan Marray,Frederik Nielsen,8767009.68,europe,London,GB,51.50853,-0.12574

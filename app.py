@@ -41,8 +41,7 @@ region_drop = dcc.Dropdown(
                  {'label': 'Asia', 'value': 'asia'},
                  {'label': 'Africa', 'value': 'africa'},
                  {'label': 'North America', 'value': 'north america'},
-                 {'label': 'South America', 'value': 'south america'},
-                 {'label': 'Oceania', 'value': 'oceania'}],
+                 {'label': 'South America', 'value': 'south america'}],
         value='world', 
         style= {'margin': '4px', 'box-shadow': '0px 0px #B7EAFF', 'border-color': '#B7EAFF'}
     )
@@ -69,18 +68,8 @@ app.layout = html.Div([
                 ], id='Bar plot', className='main_box_style'),
 
                 html.Div([
-                    html.Img(src=app.get_asset_url('boys-playing.png'),style={'position': 'relative'})
+                    html.Img(src=app.get_asset_url('boys-playing.png'),style={'width': '100%', 'position': 'relative'})
                 ], id='Boys image'),
-
-                html.Div([
-                    html.H2('Tournaments by Characteristics'),
-                    html.Br(),
-                    html.Label("Slide the cursor over the chart for the number of tournaments."),
-                    html.Br(),
-                    html.Br(),
-                    html.Br(),
-                    dcc.Graph(id='fig_sunburst'),
-                ], id='Sunburst', className='main_box_style'),
 
             ], id='Left Body', style={'width': '40%'}),
 
@@ -153,22 +142,34 @@ app.layout = html.Div([
 
                     ], id='Facts', style={'display': 'flex', 'margin': 'auto'})
 
-                ], id='Facts and title'),
-
-                html.Br(),
-
-                html.Div([
-                    html.H2('Tournament Final Statistics'),
-                    html.Br(),
-                    html.Label(id='radar_legend'),
-                    html.Br(),
-                    html.Br(),
-                    html.Br(),
-                    dcc.Graph(id='radar_chart'),
-                ], id='Radar', className='main_box_style')
+                ], id='Facts and title', className='box_below_stats'),
 
             ], id='Right Body', style={'width': '60%'}),
     ], id='App body', style={'display': 'flex'}),
+
+    html.Div([
+    
+        html.Div([
+            html.H2('Tournaments by Characteristics'),
+            html.Br(),
+            html.Label("Slide the cursor over the chart for the number of tournaments."),
+            html.Br(),
+            html.Br(),
+            html.Br(),
+            dcc.Graph(id='fig_sunburst'),
+        ], id='Sunburst', className='main_box_style', style={'width': '40%'}),
+
+        html.Div([
+            html.H2('Tournament Final Statistics'),
+            html.Br(),
+            html.Label(id='radar_legend'),
+            html.Br(),
+            html.Br(),
+            html.Br(),
+            dcc.Graph(id='radar_chart'),
+        ], id='Radar', className='main_box_style', style={'width': '60%'})
+
+    ], id='Last Row Body', style={'display': 'flex'}),
 
     html.Div([
         html.Div([
